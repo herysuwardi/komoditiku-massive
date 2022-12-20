@@ -1,0 +1,65 @@
+.text-layanan h1 {
+    text-align: center;
+    color: #1F8F4A;
+    margin-top: 2rem;
+    font-size: 48px;
+}
+
+.text-layanan p {
+    font-size: 16px;
+}
+
+.card__wrapper1 {
+    background-color: #f9f9f9;
+    margin-top: 3rem;
+    padding-top: 30px;
+    padding-bottom: 40px;
+    box-shadow: 0 2px 8px 0 #969696;
+    border-radius: 1rem;
+    border: 2px solid #f9f9f9;
+} 
+
+.card__wrapper2 {
+    background-color: #0AB04A;
+    margin-top: 3rem;
+    padding-top: 30px;
+    padding-bottom: 40px;
+    box-shadow: 0 2px 8px 0 #969696;
+    border-radius: 1rem;
+    border: 2px solid #0AB04A;
+} 
+
+.card__wrapper1:hover {
+    background-color: #ffffff;
+    margin-top: 3rem;
+    padding-top: 30px;
+    padding-bottom: 40px;
+    box-shadow: 0 6px 14px 0 #969696;
+    border-radius: 1rem;
+    border: 2px solid #0AB04A;
+}
+.card__wrapper2:hover {
+    background-color: #C9E265;
+    margin-top: 3rem;
+    padding-top: 30px;
+    padding-bottom: 40px;
+    box-shadow: 0 6px 14px 0 #969696;
+    border-radius: 1rem;
+    border: 2px solid #0AB04A;
+}
+
+.card-body a {
+    margin-top: 10px;
+    font-size: 17px;
+    font-weight: 500;
+    width: 45%;
+    border-radius: 10px;
+    background-color: #1F8F4A;
+    color: #ffffff;
+}
+
+.card-body a:hover {
+    background-color: #0AB04A;
+    color: #ffffff;
+    transition: all 0.3s ease-in-out;
+}

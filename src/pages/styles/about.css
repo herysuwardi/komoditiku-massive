@@ -1,0 +1,89 @@
+.hero-about {
+    overflow-x: hidden;
+}
+
+.about-img {
+    margin-top: 4rem;
+}
+
+.text-about h1{
+    text-align: center;
+    margin-top: -32rem;
+    margin-bottom: 25rem;
+    font-size: 50px;
+    font-weight: 700;
+    color: #C9E265;
+    text-shadow: 1px 2px 20px rgba(0, 0, 0, 0.4);
+}
+
+.text-about b { 
+    color: #1F8F4A;
+}
+
+.wrapper__about {
+    background-color: #FCFCFC;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+.wrapper__about h1 {
+    margin-top: 7rem;
+    margin-bottom: 2rem;
+    font-weight: 600;
+}
+
+.wrapper__about b {
+    color: #1F8F4A;
+}
+
+/* Visi-Misi */
+
+.visi-misi {
+    background-color: #EDFFF0;
+    padding: 5rem;
+}
+
+.misi {
+    margin-left: 5rem;
+}
+
+.visi {
+    margin-left: 2rem;
+}
+
+.visi-misi h1 {
+    margin-bottom: 6rem;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.visi-misi b {
+    color: #1F8F4A;
+}
+
+.visi-misi h2 {
+    font-size: 30px;
+    font-weight: 600;
+    margin-top: 2rem;
+}
+
+.visi-misi p {
+    margin-top: 2rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    font-size: 16px;
+}
+
+.card-about {
+    background-color: #F9F9F9;
+    padding-top: 3rem;
+    padding-bottom: 5rem;
+    box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 1rem;
+    border: 2px solid #F9F9F9;
+}
+
+.card-about img {
+    margin-top: -7.8rem;
+    margin-bottom: 2rem;
+}

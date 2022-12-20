@@ -1,0 +1,78 @@
+.wrapper__footer {
+    background-color: #1F8F4A;
+    padding-top: 5rem;
+    padding-bottom: 2rem;
+}
+
+.tentang-kami i {
+    font-size: 30px;
+    color: #C9E265;
+}
+
+.wrapper__footer p {
+    color: #ffffff;
+}
+
+.icon-footer {
+    font-size: 18px;
+    color: #ffffff;
+}
+
+.icon-footer i {
+    color: #C9E265;
+}
+
+.wrapper__footer h5 {
+    font-size: 22px;
+    font-weight: 700;
+    margin-bottom: 2rem;
+    color: #C9E265;
+}
+
+.wrapper__footer a {
+    display: flex;
+    flex-flow: column;
+    text-decoration: none;
+    color: white;
+    margin-bottom: 15px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.wrapper__footer a:hover {
+    color: #C9E265;
+    transition: all 0.1s ease-in-out;
+}
+
+.wrapper__footer p {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.kontak-kami i {
+    font-size: 20px;
+    color: #C9E265;
+}
+
+.layanan-kami {
+    margin-left: 4rem;
+}
+
+.kontak-kami {
+    margin-left: 3rem;
+}
+
+.line {
+    border-top: 3px solid #ffffff;
+    margin-top: 2rem;
+}
+
+.wrapper_copyright {
+    text-align: center;
+    margin-top: 2rem;
+    color: #ffffff;
+}
+
+.wrapper_copyright b {
+    color: #C9E265;
+}

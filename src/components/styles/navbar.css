@@ -1,0 +1,98 @@
+nav.navbar {
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 8px 0 #e7e7e7;
+    width: 100%;
+}
+
+.navbar-nav {
+    margin-right: 6.5rem;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 10px;
+}
+
+.nav-link {
+    margin-right: 1.5rem;
+}
+
+.navbar-link {
+    color: #000000;
+    text-decoration: none;
+    margin-right: 2rem;
+    margin-top: 8px;
+}
+
+.navbar-link:hover {
+    color: #1F8F4A;
+    text-decoration: 3px underline;
+    transition: all 0.3s ease-in-out;
+}
+
+.nav-layanan {
+    color: #000000;
+}
+
+.nav-layanan:hover {
+    color: #1F8F4A;
+    text-decoration: 3px underline;
+    transition: all 0.3s ease-in-out;
+}
+
+.nav-dropdown {
+    color: #000000;
+    text-decoration: none;
+    display: block;
+    font-size: 13px;
+    padding: 10px;
+}
+
+.nav-dropdown:hover {    
+    display: block;
+    color: #1F8F4A;
+    background-color: #f3f2f2;
+    padding: 10px;
+}
+
+.btn1-nav {
+    font-size: 15px;
+    font-weight: 500;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    color: #000000;
+    border: 1px solid #1F8F4A;
+    width: 6rem;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    text-decoration: none;
+}
+
+.btn1-nav:hover {
+    background-color: #0AB04A;
+    color: #ffffff;
+    border: 1px solid #0AB04A;
+    transition: all 0.3s ease-in-out;
+}
+
+.btn2-nav {
+    font-size: 15px;
+    font-weight: 500;
+    border-radius: 10px;
+    background-color: #1F8F4A;
+    color: #ffffff;
+    border: 1px solid #1F8F4A;
+    width: 6rem;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    text-decoration: none;
+}
+
+.btn2-nav:hover {
+    background-color: #0AB04A;
+    border: 1px solid #0AB04A;
+    color: #ffffff;
+    transition: all 0.3s ease-in-out;
+}
