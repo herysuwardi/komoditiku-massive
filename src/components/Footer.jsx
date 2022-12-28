@@ -13,18 +13,20 @@ const Footer = () => {
                             <a href="#"> <img src={Logofooter} alt="" width="55%" className="logo-footer" /></a>  
                             <p>Komoditiku berperan dalam pemberdayaan potensi  komoditas lokal/daerah  serta dapat
                             menciptakan lapangan pekerjaan baik individu maupun kelompok.</p>
-                            <i className="bi bi-facebook"></i>
-                            <i className="bi bi-twitter ms-4"></i>
-                            <i className="bi bi-instagram ms-4"></i>
-                            <i className="bi bi-linkedin ms-4"></i>
+                            <a href="#"><i className="bi bi-facebook"></i></a>
+                            <a href="#"><i className="bi bi-twitter"></i></a>
+                            <a href="#"><i className="bi bi-instagram"></i></a>
+                            <a href="#"><i className="bi bi-linkedin"></i></a>
                         </div>     
                     </div>
                     <div className="col-2">
-                        <h5>Tautan Cepat</h5>
-                        <a href="#">Beranda</a>
-                        <a href="#">Layanan</a>
-                        <a href="#">Tentang kami</a>
-                        <a href="#">Kontak</a>
+                        <div className="tautan-cepat">
+                            <h5>Tautan Cepat</h5>
+                            <a href="#">Beranda</a>
+                            <a href="#">Layanan</a>
+                            <a href="#">Tentang kami</a>
+                            <a href="#">Kontak</a>
+                        </div>                       
                     </div>
                     <div className="col-3">
                         <div className="layanan-kami">

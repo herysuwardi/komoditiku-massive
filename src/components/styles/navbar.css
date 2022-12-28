@@ -8,11 +8,7 @@ nav.navbar {
     margin-right: 6.5rem;
     font-size: 18px;
     font-weight: 500;
-    padding: 10px;
-}
-
-.nav-link {
-    margin-right: 1.5rem;
+    padding: 1rem;
 }
 
 .navbar-link {
@@ -28,29 +24,10 @@ nav.navbar {
     transition: all 0.3s ease-in-out;
 }
 
-.nav-layanan {
-    color: #000000;
-}
-
 .nav-layanan:hover {
     color: #1F8F4A;
     text-decoration: 3px underline;
     transition: all 0.3s ease-in-out;
-}
-
-.nav-dropdown {
-    color: #000000;
-    text-decoration: none;
-    display: block;
-    font-size: 13px;
-    padding: 10px;
-}
-
-.nav-dropdown:hover {    
-    display: block;
-    color: #1F8F4A;
-    background-color: #f3f2f2;
-    padding: 10px;
 }
 
 .btn1-nav {
@@ -58,7 +35,7 @@ nav.navbar {
     font-weight: 500;
     border-radius: 10px;
     background-color: #f9f9f9;
-    color: #000000;
+    color: #1F8F4A;
     border: 1px solid #1F8F4A;
     width: 6rem;
     padding-top: 10px;
@@ -92,7 +69,6 @@ nav.navbar {
 
 .btn2-nav:hover {
     background-color: #0AB04A;
-    border: 1px solid #0AB04A;
     color: #ffffff;
     transition: all 0.3s ease-in-out;
 }

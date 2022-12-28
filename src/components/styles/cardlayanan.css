@@ -50,9 +50,10 @@
 
 .card-body a {
     margin-top: 10px;
-    font-size: 17px;
+    font-size: 16px;
     font-weight: 500;
-    width: 45%;
+    padding: 6px 0 6px 0;
+    width: 48%;
     border-radius: 10px;
     background-color: #1F8F4A;
     color: #ffffff;

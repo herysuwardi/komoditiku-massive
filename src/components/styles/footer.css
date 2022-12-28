@@ -4,13 +4,59 @@
     padding-bottom: 2rem;
 }
 
-.tentang-kami i {
-    font-size: 30px;
+.wrapper__footer p {
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+.wrapper__footer h5 {
+    font-size: 22px;
+    font-weight: 700;
+    margin-bottom: 2rem;
     color: #C9E265;
 }
 
-.wrapper__footer p {
-    color: #ffffff;
+.tautan-cepat a {
+    display: flex;
+    flex-flow: column;
+    text-decoration: none;
+    color: white;
+    margin-bottom: 15px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.tautan-cepat a:hover {
+    color: #C9E265;
+    transition: all 0.1s ease-in-out;
+}
+
+.layanan-kami a {
+    display: flex;
+    flex-flow: column;
+    text-decoration: none;
+    color: white;
+    margin-bottom: 15px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.layanan-kami a:hover {
+    color: #C9E265;
+    transition: all 0.1s ease-in-out;
+}
+
+.layanan-kami {
+    margin-left: 4rem;
+}
+
+.tentang-kami i {
+    font-size: 30px;
+    color: #C9E265;
+    margin-right: 2rem;
 }
 
 .icon-footer {
@@ -22,40 +68,9 @@
     color: #C9E265;
 }
 
-.wrapper__footer h5 {
-    font-size: 22px;
-    font-weight: 700;
-    margin-bottom: 2rem;
-    color: #C9E265;
-}
-
-.wrapper__footer a {
-    display: flex;
-    flex-flow: column;
-    text-decoration: none;
-    color: white;
-    margin-bottom: 15px;
-    font-size: 18px;
-    font-weight: 500;
-}
-
-.wrapper__footer a:hover {
-    color: #C9E265;
-    transition: all 0.1s ease-in-out;
-}
-
-.wrapper__footer p {
-    font-size: 18px;
-    font-weight: 500;
-}
-
 .kontak-kami i {
     font-size: 20px;
     color: #C9E265;
-}
-
-.layanan-kami {
-    margin-left: 4rem;
 }
 
 .kontak-kami {
