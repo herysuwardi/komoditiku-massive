@@ -1,11 +1,12 @@
 import { Container } from "react-bootstrap";
-import { Link } from "react-router-dom";
 import Navs from "../components/Navbar";
+import Cardlayanan from "../components/Cardlayanan";
+import Slidertim from "../components/Slidertim";
 import Footer from "../components/Footer";
-import Heroabout from "../img/hero-tentangkami.png"
-import Aboutkomoditiku from "../img/tentang-komoditiku.png"
-import Iconmisi from "../img/icon-misi.png"
-import Iconvisi from "../img/icon-visi.png"
+import Heroabout from "../images/hero-tentangkami.png"
+import Aboutkomoditiku from "../images/tentang-komoditiku.png"
+import Iconmisi from "../images/icon-misi.png"
+import Iconvisi from "../images/icon-visi.png"
 import "./styles/about.css";
 
 const About = () => {
@@ -18,7 +19,7 @@ const About = () => {
             <div className="text-about">
                 <h1>Profil <b>Komoditiku</b></h1>
             </div>
-            <div className="wrapper__about">
+            <section className="wrapper__about">
                 <Container>           
                     <div className="row">
                         <div className="col-6">
@@ -32,9 +33,10 @@ const About = () => {
                         </div>
                     </div>   
                 </Container> 
-            </div>
+            </section>
+            <Cardlayanan />
 
-            <div className="visi-misi text-center">
+            <section className="visi-misi text-center">
               <div className="container">
                 <h1>Visi & Misi <b>Komoditiku</b></h1>
                 <div className="row">   
@@ -56,8 +58,9 @@ const About = () => {
                   </div>     
                 </div>
               </div>             
-            </div>
+            </section>
 
+            <Slidertim />
             <Footer />
         </div>
 

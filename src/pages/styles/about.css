@@ -22,8 +22,8 @@
 
 .wrapper__about {
     background-color: #FCFCFC;
-    padding-top: 5rem;
-    padding-bottom: 5rem;
+    padding-top: 3rem;
+    padding-bottom: 2rem;
 }
 
 .wrapper__about h1 {
@@ -41,6 +41,7 @@
 .visi-misi {
     background-color: #EDFFF0;
     padding: 5rem;
+    margin-top: 5rem;
 }
 
 .misi {
