@@ -3,11 +3,11 @@ import { Link } from "react-router-dom";
 import Navs from "../components/Navbar";
 import Cardlayanan from "../components/Cardlayanan";
 import Footer from "../components/Footer";
-import Heroberanda from "../img/hero-image.png"
-import Benefit from "../img/benefit-image.png"
-import Comment from "../img/comment-image.png"
-import Heroshape1 from "../img/hero-shape1.png"
-import Heroshape2 from "../img/hero-shape2.png"
+import Heroberanda from "../images/hero-image.png"
+import Benefit from "../images/benefit-image.png"
+import Comment from "../images/comment-image.png"
+import Heroshape1 from "../images/hero-shape1.png"
+import Heroshape2 from "../images/hero-shape2.png"
 import "./styles/home.css";
 
 const Home = () => {
@@ -32,7 +32,7 @@ const Home = () => {
                 </div>  
             <Cardlayanan />
 
-            <div className="wrapper__mitra">
+            <section className="wrapper__mitra">
                 <Container>
                 <div className="row">
                     <div className="col-5">
@@ -55,9 +55,9 @@ const Home = () => {
                     </div>   
                 </div>
                 </Container>               
-            </div>
+            </section>
 
-            <div className="wrapper__kelebihan">
+            <section className="wrapper__kelebihan">
                 <Container>
                 <div className="text-kelebihan text-center">
                     <h1>Apa Kelebihan <b>Komoditiku?</b></h1>
@@ -109,12 +109,12 @@ const Home = () => {
                 </div>
                 </div>
                 </Container>                
-            </div>
+            </section>
 
             <div className="hero-shape1">
                 <img src={Heroshape2} alt="" className="hero-shape" />
             </div>
-            <div className="wrapper__comment">
+            <section className="wrapper__comment">
                 <Container>
                     <div className="row">
                         <div className="col-6">
@@ -143,7 +143,7 @@ const Home = () => {
                         </div>
                     </div>
                 </Container>
-            </div> 
+            </section> 
             <Footer />   
         </div>
 

@@ -3,5 +3,67 @@
 }
 
 .contact-img {
-    margin-top: 4rem;
+    margin-top: 5rem;
+}
+
+.text-contact h1{
+    text-align: center;
+    margin-top: -32rem;
+    margin-bottom: 25rem;
+    font-size: 50px;
+    font-weight: 700;
+    color: #C9E265;
+    text-shadow: 1px 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+.text-contact b { 
+    color: #1F8F4A;
+}
+
+.wrapper__contact {
+    padding-top: 5rem;
+    padding-bottom: 10rem;
+    background-color: #FCFCFC;
+}
+
+.wrapper__contact h4 {
+    font-size: 25px;
+}
+
+.wrapper__contact i {
+    color: #1F8F4A;
+    font-size: 20px;
+}
+
+.ikuti-kami i {
+    font-size: 25px;
+}
+
+.wrapper__formkontak {
+    background-color: #F9F9F9;
+    box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.1);
+    padding: 2rem 2rem 5rem 2rem;
+    border-radius: 1rem;
+}
+
+.wrapper__formkontak a {
+    margin-top: 2rem;
+    font-size: 16px;
+    font-weight: 500;
+    width: 17%;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-radius: 10px;
+    background-color: #1F8F4A;
+    color: #ffffff;
+}
+
+.wrapper__formkontak a:hover {
+    background-color: #0AB04A;
+    color: #ffffff;
+    transition: all 0.3s ease-in-out;
+}
+
+iframe {
+    border-radius: 1rem;
 }

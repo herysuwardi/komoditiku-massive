@@ -1,5 +1,5 @@
 import { Container } from "react-bootstrap";
-import Logofooter from "../img/logo-footer.png"
+import Logofooter from "../images/logo-footer.png"
 import "./styles/footer.css";
 
 const Footer = () => {

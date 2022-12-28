@@ -1,7 +1,7 @@
 import { Navbar, Container, Nav, NavDropdown } from "react-bootstrap";
 import { NavLink } from "react-router-dom";
 import { Link } from "react-router-dom";
-import Logoheading from "../img/logo-heading.png"
+import Logoheading from "../images/logo-heading.png"
 import "./styles/navbar.css";
 import { HOME, SERVICE, ABOUT, CONTACT, LOGIN, REGISTER } from "../router";
 

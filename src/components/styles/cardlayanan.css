@@ -1,7 +1,10 @@
+.wrapper__layanan {
+    padding-top: 3rem;
+}
+
 .text-layanan h1 {
     text-align: center;
     color: #1F8F4A;
-    margin-top: 2rem;
     font-size: 48px;
 }
 
