@@ -1,5 +1,6 @@
 import { Container } from "react-bootstrap";
 import { Link } from "react-router-dom";
+import HOC from "../components/HOC";
 import Navs from "../components/Navbar";
 import Footer from "../components/Footer";
 import Heroabout from "../images/hero-kontak.png"
@@ -7,13 +8,15 @@ import "./styles/contact.css";
 
 const Contact = () => {
     return (
-        <div>
+        <HOC title="Kontak - Komoditiku">
             <Navs />  
             <div className="hero-contact">
                 <img src={Heroabout} alt="" className="contact-img" />
             </div> 
             <div className="text-contact">
                 <h1>Kontak <b>Komoditiku</b></h1>
+                <p>Hubungi kami jika ada pertanyaan terkait komoditiku melalui <br />kontak kami dibawah ini</p>
+                <Link href="#" className="btn btn-sm">Lihat Selengkapnya</Link> 
             </div> 
             <section className="wrapper__contact">
                 <Container>
@@ -80,7 +83,7 @@ const Contact = () => {
                 </div>
             </section>
             <Footer />
-        </div>
+        </HOC>
 
     );
 }

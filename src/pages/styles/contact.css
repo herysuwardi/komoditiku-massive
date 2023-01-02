@@ -6,10 +6,13 @@
     margin-top: 5rem;
 }
 
-.text-contact h1{
-    text-align: center;
+.text-contact {
     margin-top: -32rem;
-    margin-bottom: 25rem;
+    margin-bottom: 15rem;
+    text-align: center;
+}
+
+.text-contact h1{
     font-size: 50px;
     font-weight: 700;
     color: #C9E265;
@@ -18,6 +21,29 @@
 
 .text-contact b { 
     color: #1F8F4A;
+}
+
+.text-contact p {
+    font-size: 18px;
+    color: #FFFFFF;
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+}
+
+.text-contact a {
+    font-size: 16px;
+    font-weight: 500;
+    width: 14%;
+    padding: 8px 0 8px 0;
+    border-radius: 10px;
+    background-color: #1F8F4A;
+    color: #ffffff;
+}
+
+.text-contact a:hover {
+    background-color: #0AB04A;
+    color: #ffffff;
+    transition: all 0.3s ease-in-out;
 }
 
 .wrapper__contact {

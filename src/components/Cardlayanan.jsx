@@ -1,6 +1,7 @@
 import { Container } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import "./styles/cardlayanan.css";
+import { CONSUL, COURSES } from "../router";
 
 const Cardlayanan = () => {
     return (
@@ -13,27 +14,27 @@ const Cardlayanan = () => {
                 </div>   
                 <div className="row mt-3">
                     <div className="col-md-3">
-                        <div className="card__wrapper1 text-center">
+                        <div className="card__wrapper text-center">
                         <img src="/assets/icon-layanan1.png" alt="..." />
                         <div className="card-body">
                             <h5 className="card-title font-weight-bold text-center mt-4 mb-3">Konsultasi</h5>
                             <p className="text-center container mt-4">Menyediakan sesi konsultasi untuk membantu anda dalam mencapai target bisnis yang ingin dicapai.</p> 
-                            <Link href="#" className="btn btn-sm">Lihat Detail</Link>           
+                            <Link to={CONSUL} className="btn btn-sm">Lihat Detail</Link>           
                         </div>
                         </div>
                     </div>
                     <div className="col-md-3">
-                        <div className="card__wrapper2 text-center">
+                        <div className="card__wrapper text-center">
                         <img src="/assets/icon-layanan2.png" alt="..." />
                         <div className="card-body">
                             <h5 className="card-title font-weight-bold text-center mt-4 mb-3">Kursus Online</h5>
                             <p className="text-center container mt-4">Sebagai tempat para pelaku UMKM dalam mempelajari teknis penjualan yang tepat sasaran.</p> 
-                            <Link href="#" className="btn btn-sm">Lihat Detail</Link>           
+                            <Link to={COURSES} className="btn btn-sm">Lihat Detail</Link>           
                         </div>
                         </div>
                     </div>
                     <div className="col-md-3">
-                        <div className="card__wrapper1 text-center">
+                        <div className="card__wrapper text-center">
                         <img src="/assets/icon-layanan3.png" alt="..." />
                         <div className="card-body">
                             <h5 className="card-title font-weight-bold text-center mt-4 mb-3">Digital Pemasaran</h5>
@@ -43,7 +44,7 @@ const Cardlayanan = () => {
                         </div>
                     </div>
                     <div className="col-md-3">
-                        <div className="card__wrapper2 text-center">
+                        <div className="card__wrapper text-center">
                         <img src="/assets/icon-layanan4.png" alt="..." />
                         <div className="card-body">
                             <h5 className="card-title font-weight-bold text-center mt-4 mb-3">Explore Produk</h5>

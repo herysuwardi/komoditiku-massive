@@ -2,60 +2,106 @@
     overflow-x: hidden;
 }
 
-.daftar__img {
-	background: linear-gradient(270deg, #C8FFD4 50%, rgba(157, 214, 255, 0.25) 100%);
-    padding-top: 5rem;
-    padding-bottom: 10rem;
-    padding-left: 5rem;
-    padding-right: 5rem;
-	overflow: hidden;
-}
-
 .wrapper__login h1 {
-    margin-top: 6rem;
     text-align: center;
-    font-size: 50px;
+    font-size: 40px;
+    margin-bottom: 3rem;
 }
 
-.wrapper__box {   
+.back-login i {
+	position: absolute;
+	left: 3rem;
+	top: 2rem;
+	cursor: pointer;
+    color: #F9F9F9;
+    font-size: 3rem;
+}
+
+.text-login i {
+    font-size: 30px;
+    color: #C9E265;
+    margin-right: 2rem;
+    margin-top: 5rem;
+}
+
+.form-login i {
+    color: #1F8F4A;
+    font-size: 25px;
+    position: absolute;
+    top: 13px;
+    left: 23rem;
+    cursor: pointer;
+}
+
+.form-logindaftar i {
+    color: #1F8F4A;
+    font-size: 25px;
+    position: absolute;
+    top: 13px;
+    left: 23rem;
+    cursor: pointer;
+}
+
+.text-login {
+    margin-top: -30rem;
+    margin-left: 4rem;
+}
+
+.text-login h5 {
+    margin-top: 3rem;
+    margin-bottom: 6rem;
+    color: #ffffff;
+}  
+
+.form-login {
+    margin-top: -46rem;
+    background-color: #F9F9F9;
+    padding-top: 8rem;
+    padding-bottom: 11.7rem;
+    margin-left: 3rem;
+    border-radius: 4rem 0 0 4rem;
+}
+
+.form-logindaftar {
+    margin-top: -46rem;
+    background-color: #F9F9F9;
+    padding-top: 5rem;
+    padding-bottom: 7rem;
+    margin-left: 3rem;
+    border-radius: 4rem 0 0 4rem;
+}
+
+.formlogin-box {   
     padding-left: 10rem;
     padding-right: 10rem;
 }
 
-.wrapper__box a {
+.formlogin-box a {
     color: #1F8F4A;
     text-decoration: none;
 }
 
-.button__daftar a {
+.btn-login a {
     margin-top: 2rem;
     background-color: #1F8F4A;
     color: #ffffff;
-    width: 40%;
-    font-size: 18px;
+    width: 55%;
+    font-size: 17px;
     font-weight: 500;
 }
 
-.button__daftar a:hover {
+.btn-login a:hover {
     background-color: #0AB04A;
     color: #ffffff;
     transition: all 0.3s ease-in-out;
 }
 
-.wrapper__login i {
-	position: absolute;
-	left: 40px;
-	top: 40px;
-	cursor: pointer;
-    color: black;
-    font-size: 3rem;
-}
-
-.noakun p {
+.text-auth p {
     font-size: 16px;
     font-weight: 500;
 }
 
-.noakun a {
+.text-auth a {
     color: #1F8F4A;
+    text-decoration: none;
 }

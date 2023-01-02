@@ -12,7 +12,7 @@
     font-size: 16px;
 }
 
-.card__wrapper1 {
+.card__wrapper {
     background-color: #f9f9f9;
     margin-top: 3rem;
     padding-top: 30px;
@@ -22,27 +22,8 @@
     border: 2px solid #f9f9f9;
 } 
 
-.card__wrapper2 {
-    background-color: #0AB04A;
-    margin-top: 3rem;
-    padding-top: 30px;
-    padding-bottom: 40px;
-    box-shadow: 0 2px 8px 0 #969696;
-    border-radius: 1rem;
-    border: 2px solid #0AB04A;
-} 
-
-.card__wrapper1:hover {
+.card__wrapper:hover {
     background-color: #ffffff;
-    margin-top: 3rem;
-    padding-top: 30px;
-    padding-bottom: 40px;
-    box-shadow: 0 6px 14px 0 #969696;
-    border-radius: 1rem;
-    border: 2px solid #0AB04A;
-}
-.card__wrapper2:hover {
-    background-color: #C9E265;
     margin-top: 3rem;
     padding-top: 30px;
     padding-bottom: 40px;

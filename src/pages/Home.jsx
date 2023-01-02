@@ -1,5 +1,6 @@
 import { Container, Form } from "react-bootstrap";
 import { Link } from "react-router-dom";
+import HOC from "../components/HOC";
 import Navs from "../components/Navbar";
 import Cardlayanan from "../components/Cardlayanan";
 import Footer from "../components/Footer";
@@ -12,17 +13,17 @@ import "./styles/home.css";
 
 const Home = () => {
     return (
-        <div> 
+        <HOC title="Komoditiku"> 
             <Navs />  
             <div className="wrapper__hero">
                 <img src={Heroberanda} alt="" className="hero__img" />
             </div>         
             <Container>
-                <div className="wrapper__tagline">
+                <div className="wrapper-tagline">
                     <h1>Bergabung Bersama <b>Komoditiku</b>,<br></br><b>Solusi</b> Tepat Untuk Bisnis Anda</h1>
                     <p>Temukan solusi bagaimana cara mengeksplor potensi komoditas pada <br></br>masyarakat lokal ataupun 
                     daerah dengan berbagai macam kegiatan, <br></br>keterampilan dan pengerjaan pada potensi komoditas yang ada.</p>   
-                    <div className="button_header">
+                    <div className="btn-herohome">
                         <Link className="btn" href="#">Temukan Solusimu <i className="bi bi-arrow-right"></i></Link>
                     </div>      
                 </div> 
@@ -145,7 +146,7 @@ const Home = () => {
                 </Container>
             </section> 
             <Footer />   
-        </div>
+        </HOC>
 
   );
 }

@@ -1,7 +1,7 @@
 .wrapper__tim {
-    padding-top: 6rem;
-    padding-bottom: 10rem;
-    background-color: #f9f9f9;
+    padding-top: 5rem;
+    padding-bottom: 8rem;
+    background-color: #FCFCFC;
 }
 
 .text-tim {
@@ -14,7 +14,7 @@
 }
 
 .card-tim {
-    margin-top: 3rem;
+    margin-top: 2rem;
     margin-bottom: 3rem;
     margin-left: 4rem;
     padding-top: 10px;

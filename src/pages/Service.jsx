@@ -1,5 +1,6 @@
 import { Container } from "react-bootstrap";
 import { Link } from "react-router-dom";
+import HOC from "../components/HOC";
 import Navs from "../components/Navbar";
 import Footer from "../components/Footer";
 import Heroservice from "../images/hero-layanan.png"
@@ -8,13 +9,15 @@ import { CONSUL, COURSES } from "../router";
 
 const Service = () => {
     return (
-        <div>
+        <HOC title="Layanan - Komoditiku">
             <Navs />  
             <div className="hero-service">
                 <img src={Heroservice} alt="" className="service-img" />
             </div> 
             <div className="text-service">
                 <h1>Layanan <b>Komoditiku</b></h1>
+                <p>Apa saja layanan yang disediakan oleh Komoditiku? Simak beberapa <br />layanan yang kami sediakan dibawah ini!</p>
+                <Link href="#" className="btn btn-sm">Lihat Selengkapnya</Link> 
             </div>
             <section className="wrapper__service">
                 <Container>
@@ -77,7 +80,7 @@ const Service = () => {
                 </Container>
             </section>
             <Footer />
-        </div>
+        </HOC>
 
     );
 }

@@ -1,0 +1,133 @@
+.hero-consul {
+    overflow-x: hidden;
+}
+
+.consul-img {
+    margin-top: 5rem;
+}
+
+.text-consul {
+    margin-top: -32rem;
+    margin-bottom: 15rem;
+    text-align: center;
+}
+
+.text-consul h1{
+    font-size: 50px;
+    font-weight: 700;
+    color: #C9E265;
+    text-shadow: 1px 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+.text-consul p {
+    font-size: 18px;
+    color: #FFFFFF;
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+}
+
+.text-consul a {
+    font-size: 16px;
+    font-weight: 500;
+    width: 14%;
+    padding: 8px 0 8px 0;
+    border-radius: 10px;
+    background-color: #1F8F4A;
+    color: #ffffff;
+}
+
+.text-consul a:hover {
+    background-color: #0AB04A;
+    color: #ffffff;
+    transition: all 0.3s ease-in-out;
+}
+
+.wrapper__Konsultasi {
+    padding-top: 5rem;
+    padding-bottom: 6rem;
+    background-color: #FCFCFC;
+}
+
+.wrapper__Konsultasi h1 {
+    font-size: 35px;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+}
+
+.wrapper__Konsultasi b { 
+    color: #1F8F4A;
+}
+
+.wrapper__Konsultasi a {
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 2rem;
+    width: 30%;
+    padding: 8px 0 8px 0;
+    border-radius: 10px;
+    background-color: #1F8F4A;
+    color: #ffffff;
+}
+
+.wrapper__Konsultasi a:hover {
+    background-color: #0AB04A;
+    color: #ffffff;
+    transition: all 0.3s ease-in-out;
+}
+
+.form-konsultasi h1 {
+    text-align: center;
+    font-size: 30px;
+    margin-top: 8rem;
+    margin-bottom: 3rem;
+}
+
+.section-form p {
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 1rem;
+}
+
+.section-form {
+    background-color: #F9F9F9;
+    padding: 22px 3rem 5px 3rem;
+    box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.1);
+    border: 1px solid #F9F9F9;
+    border-radius: 1rem;
+    margin-bottom: 2rem;
+}
+
+.section-form:hover {
+    box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.2);
+    border: 1px solid #1F8F4A;
+    transition: all 0.3s ease-in-out;
+}
+
+.wrapper__formkonsultasi {
+    background-color: #F9F9F9;
+    box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.1);
+    padding: 2rem 2rem 5rem 2rem;
+    border-radius: 1rem;
+}
+
+.wrapper__formkonsultasi h4 {
+    font-size: 25px;
+}
+
+.wrapper__formkonsultasi a {
+    margin-top: 2rem;
+    font-size: 16px;
+    font-weight: 500;
+    width: 17%;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-radius: 10px;
+    background-color: #1F8F4A;
+    color: #ffffff;
+}
+
+.wrapper__formkonsultasi a:hover {
+    background-color: #0AB04A;
+    color: #ffffff;
+    transition: all 0.3s ease-in-out;
+}
