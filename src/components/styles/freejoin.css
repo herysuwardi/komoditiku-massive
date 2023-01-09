@@ -1,0 +1,39 @@
+.wrapper__join {
+    padding-top: 5rem;
+    padding-bottom: 8rem;
+    background-color: #FCFCFC;
+}
+
+.wrapper__join b {
+    color: #1F8F4A;
+}
+
+.wrapper__join h1 {
+    font-size: 30px;
+    margin-left: 3rem;
+    margin-top: 5rem;
+}
+
+.wrapper__join p {
+    font-size: 20px;
+    margin-left: 3rem;
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+}
+
+.wrapper__join a {
+    font-size: 17px;
+    width: 35%;
+    margin-left: 3rem;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-radius: 10px;
+    background-color: #1F8F4A;
+    color: #ffffff;
+}
+
+.wrapper__join a:hover {
+    background-color: #0AB04A;
+    color: #ffffff;
+    transition: all 0.3s ease-in-out;
+}
