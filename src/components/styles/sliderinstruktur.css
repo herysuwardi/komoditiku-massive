@@ -1,0 +1,59 @@
+.wrapper__instruktur {
+    padding-top: 3rem;
+    padding-bottom: 8rem;
+}
+
+.text-instruktur {
+    margin-bottom: 2rem;
+}
+
+.text-instruktur h1 {
+    font-size: 40px;
+}
+
+.text-instruktur b {
+    color: #1F8F4A;
+}
+
+.card-instruktur {
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+    margin-left: 4rem;
+    padding-top: 10px;
+    padding-bottom: 1rem;
+    background-color: #ffffff;
+    box-shadow: 0 2px 10px 0 #d1d1d1;
+    border-radius: 1rem;
+}
+
+.card-instruktur img {
+    display: block;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.card-instruktur img:hover{
+    transform: scale(0.97);
+    filter: brightness(0.8);
+    transition: all 0.1s ease-in-out;
+}
+
+.card-instruktur h5 {
+    margin-top: 2rem;
+}
+
+.card-instruktur a {
+    font-size: 23px;
+    margin-left: 11rem;
+    width: 18%;
+    background-color: #1F8F4A;
+    color: #ffffff;
+    border-radius: 8px;
+}
+
+.card-instruktur a:hover {
+    background-color: #0AB04A;
+    color: #ffffff;
+    transition: all 0.3s ease-in-out;
+}
