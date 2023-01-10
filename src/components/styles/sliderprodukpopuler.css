@@ -1,0 +1,91 @@
+.wrapper__produkpopuler {
+    padding-top: 4rem;
+    padding-bottom: 5rem;
+    background-color: #FCFCFC;
+}
+
+.text-produkpopuler {
+    margin-bottom: 2rem;
+}
+
+.text-produkpopuler h1 {
+    font-size: 35px;
+}
+
+.text-produkpopuler b {
+    color: #1F8F4A;
+}
+
+.card-produkpopuler {
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+    background-color: #F9F9F9;
+    box-shadow: 1px 3px 10px rgba(0,0,0,0.1);
+    padding: 0 0 1rem 0;
+    border-radius: 10px;
+}
+
+.label-harga {
+    font-size: 100px;
+    background-color: #0AB04A;
+    opacity: 0.8;
+    color: #C9E265;
+    width: 143px;
+    height: 35px;
+    border-radius: 15px 0 0 0;
+    line-height: 35px;
+    margin-top: -35px;
+    position: relative;
+    margin-left: auto;
+}
+
+.label-harga p {
+    font-size: 15px;
+}
+
+.label-produk {
+    font-size: 10px;
+    background-color: #0AB04A;
+    opacity: 0.8;
+    color: #ffffff;
+    width: 120px;
+    height: 25px;
+    border-radius: 15px;
+    line-height: 25px;
+    margin-top: -180px;
+    position: absolute;
+    margin-left: 10px;
+}
+
+.card-produk1 h5 {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.card-produk1 p {
+    font-size: 12px;
+}
+
+.rating i {
+    font-size: 15px;
+    color: #FFD600;
+}
+
+.save i {
+    font-size: 25px;
+}
+
+.arrow {
+    line-height: 10px;
+}
+
+.arrow i {
+    color: #1F8F4A;
+    position: relative;
+    left: 10px;
+}
+
+.arrow i:hover {
+    color: #0AB04A;
+    transition: all 0.3s ease-in-out;
+}
