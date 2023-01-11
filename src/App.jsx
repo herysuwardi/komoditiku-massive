@@ -11,6 +11,10 @@ import Konsultasi from "./pages/layanan/Konsultasi";
 import KursusOnline from "./pages/layanan/KursusOnline";
 import DigitalPemasaran from "./pages/layanan/DigitalPemasaran";
 import ExploreProduk from "./pages/layanan/ExploreProduk";
+import DetailKursus from "./components/DetailKursusonline";
+import DetailInstruktur from "./components/DetailInstruktur";
+import DetailArtikel from "./components/DetailArtikel";
+import DetailVideoartikel from "./components/DetailVideoartikel";
 
 import {
   HOME,
@@ -23,11 +27,11 @@ import {
   COURSES,
   DIGITALMARKETING,
   EXPLORE,
-  DETAILINSTRUKTUR,
-  DETAILKURSUS,
-  DETAILARTIKEL,
   PRODUKMENTAH,
   PRODUKJADI,
+  DETAILKURSUS,
+  DETAILINSTRUKTUR,
+  DETAILARTIKEL,
   DETAILVIDEOARTIKEL,
   DETAILPRODUK,
 } from "./router";
@@ -46,6 +50,10 @@ function App() {
         <Route element={<KursusOnline />} path={COURSES} />
         <Route element={<DigitalPemasaran />} path={DIGITALMARKETING} />
         <Route element={<ExploreProduk />} path={EXPLORE} />
+        <Route element={<DetailKursus />} path={DETAILKURSUS} />
+        <Route element={<DetailInstruktur />} path={DETAILINSTRUKTUR} />
+        <Route element={<DetailArtikel />} path={DETAILARTIKEL} />
+        <Route element={<DetailVideoartikel />} path={DETAILVIDEOARTIKEL} />
       </Routes>
     </div>
   );

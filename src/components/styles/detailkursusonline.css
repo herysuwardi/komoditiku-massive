@@ -1,0 +1,96 @@
+.wrapper__detailkursus{
+    padding-top: 8rem;
+    padding-bottom: 10rem;
+    background-color: #FCFCFC;
+}
+
+.wrapper__detailkursus img:hover{
+    transform: scale(0.97);
+    filter: brightness(0.8);
+    transition: all 0.1s ease-in-out;
+}
+
+.card-benefitkursus {
+    background-color: #F9F9F9;
+    box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 1rem;
+    padding: 2rem;
+}
+
+.card-benefitkursus h5 {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 1.5rem;
+}
+
+.card-benefitkursus i {
+    color: #1F8F4A;
+    font-size: 20px;
+}
+
+.btn-benefitkursus a {
+    margin-top: 1rem;
+    font-size: 16px;
+    font-weight: 500;
+    width: 45%;
+    padding: 8px 0 8px 0;
+    border-radius: 10px;
+    background-color: #F9F9F9;
+    border: 1px solid #1F8F4A;
+    color: #1F8F4A;
+}
+
+.btn-benefitkursus a:hover {
+    background-color: #0AB04A;
+    color: #ffffff;
+    transition: all 0.3s ease-in-out;
+}
+
+.title-detailkursus h4 {
+    margin-top: 2rem;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.title-detailkursus p {
+    font-size: 18px;
+}
+
+.title-detailkursus i {
+    font-size: 20px;
+    margin-right: 15px;
+    color: #FFD600;
+}
+
+.title-detailkursus a {
+    margin-top: 2rem;
+    margin-left: 2.5rem;
+    font-size: 16px;
+    font-weight: 500;
+    width: 75%;
+    padding: 8px 0 8px 0;
+    border-radius: 10px;
+    background-color: #1F8F4A;
+    color: #C9E265;
+}
+
+.title-detailkursus a:hover {
+    background-color: #0AB04A;
+    color: #ffffff;
+    transition: all 0.3s ease-in-out;
+}
+
+.profile-detailkursus {
+    margin-top: 3rem;
+}
+
+.profile-detailkursus h4 {
+    margin-bottom: 1rem;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.profile-detailkursus i {
+    font-size: 18px;
+    color: #1F8F4A;
+}

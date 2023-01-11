@@ -1,0 +1,118 @@
+.wrapper__detailvideoartikel{
+    padding-top: 8rem;
+    padding-bottom: 10rem;
+    background-color: #FCFCFC;
+}
+
+.detail-artikelpopuler {
+    background-color: #F9F9F9;
+    box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    margin-top: 2rem;
+}
+
+.detail-artikelpopuler img:hover{
+    transform: scale(0.97);
+    filter: brightness(0.8);
+    transition: all 0.1s ease-in-out;
+}
+
+.detail-artikelpopuler h6 {
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+.detail-artikelpopuler p {
+    font-size: 12px;
+    color: #6C6C6C;
+}
+
+.detail-artikelpopuler img {
+    border-radius: 10px;
+    width: 100%;
+}
+
+.content-detailartikel h5 {
+    margin-top: 3rem;
+    margin-bottom: 4rem;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.content-detailartikel i {
+    font-size: 30px;
+    color: #1F8F4A;
+    margin-right: 2rem;
+    background-color: #FFFFFF;
+    padding: 6px 10px 6px 11px;
+    border-radius: 10px;
+    box-shadow: 0px 3px 12px rgba(75, 75, 75, 0.08);
+}
+
+.content-detailartikel i:hover {
+    background-color: #C9E265;
+    color: #6C6C6C;
+    box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease-in-out;
+}
+
+.title-detailkursus h4 {
+    margin-top: 2rem;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.profile-detailartikel {
+    margin-top: 3rem;
+}
+
+.profile-detailartikel h4 {
+    margin-bottom: 1rem;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.profile-detailartikel i {
+    font-size: 25px;
+    color: #1F8F4A;
+    background-color: #FFFFFF;
+    padding: 6px 10px 6px 10px;
+    border-radius: 10px;
+    box-shadow: 0px 3px 12px rgba(75, 75, 75, 0.08);
+    position: relative;
+    top: 1rem;
+    margin-right: 1rem;  
+}
+
+.sosmed-artikel {
+    position: absolute;
+    right: 13rem;
+}
+
+.kursus-artikel {
+    margin-right: 5rem;
+}
+
+.kursus-artikel h4 {
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.btn-detailartikel a {
+    margin-top: 3rem;
+    font-size: 16px;
+    font-weight: 500;
+    width: 50%;
+    padding: 8px 0 8px 0;
+    border-radius: 10px;
+    background-color: #FCFCFC;
+    border: 1px solid #1F8F4A;
+    color: #1F8F4A;
+}
+
+.btn-detailartikel a:hover {
+    background-color: #0AB04A;
+    color: #ffffff;
+    transition: all 0.3s ease-in-out;
+}
