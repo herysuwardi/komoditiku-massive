@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import "./styles/cardlayanan.css";
-import { CONSUL, COURSES } from "../router";
+import { CONSUL, COURSES, DIGITALMARKETING, EXPLORE } from "../router";
 
 const Cardlayanan = () => {
   useEffect(() => {
@@ -69,7 +69,7 @@ const Cardlayanan = () => {
                     media mengenai desain media promosi bagi pelaku usaha
                     komoditi.
                   </p>
-                  <Link href="#" className="btn btn-sm">
+                  <Link to={DIGITALMARKETING} className="btn btn-sm">
                     Lihat Detail
                   </Link>
                 </div>
@@ -86,7 +86,7 @@ const Cardlayanan = () => {
                     Sebagai wadah bagi pelaku UMKM dalam menyediakan produk
                     mereka untuk dipasarkan.
                   </p>
-                  <Link href="#" className="btn btn-sm">
+                  <Link to={EXPLORE} className="btn btn-sm">
                     Lihat Detail
                   </Link>
                 </div>

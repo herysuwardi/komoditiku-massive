@@ -31,7 +31,7 @@ const SliderArtikelpopuler = () => {
                 <div className="card-artikelpopuler">
                   <div className="title-artikelpopuler">
                     <img
-                      src="/assets/artikel-populer1.png"
+                      src="/assets/artikel/artikel-populer1.png"
                       alt=""
                       width="100%"
                     />
@@ -76,7 +76,7 @@ const SliderArtikelpopuler = () => {
                 <div className="card-artikelpopuler">
                   <div className="title-artikelpopuler">
                     <img
-                      src="/assets/artikel-populer2.png"
+                      src="/assets/artikel/artikel-populer2.png"
                       alt=""
                       width="100%"
                     />
@@ -121,7 +121,7 @@ const SliderArtikelpopuler = () => {
                 <div className="card-artikelpopuler">
                   <div className="title-artikelpopuler">
                     <img
-                      src="/assets/artikel-populer3.png"
+                      src="/assets/artikel/artikel-populer3.png"
                       alt=""
                       width="100%"
                     />
@@ -166,7 +166,7 @@ const SliderArtikelpopuler = () => {
                 <div className="card-artikelpopuler">
                   <div className="title-artikelpopuler">
                     <img
-                      src="/assets/artikel-populer4.png"
+                      src="/assets/artikel/artikel-populer4.png"
                       alt=""
                       width="100%"
                     />
@@ -211,7 +211,7 @@ const SliderArtikelpopuler = () => {
                 <div className="card-artikelpopuler">
                   <div className="title-artikelpopuler">
                     <img
-                      src="/assets/digital-artikel-card1.png"
+                      src="/assets/artikel/digital-artikel-card1.png"
                       alt=""
                       width="100%"
                     />

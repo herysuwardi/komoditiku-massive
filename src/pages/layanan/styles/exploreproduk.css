@@ -1,0 +1,113 @@
+.wrapper__exploreproduk {
+    background-color: #FCFCFC;
+}
+
+.hero-explore {
+    width: 100%;
+    margin-top: 6rem;
+    margin-left: 1rem; 
+}
+
+.text-explore h1 {
+    margin-top: 12rem;
+    margin-bottom: 2rem;
+    font-size: 44px;
+    color: #C9E265;
+}
+
+.text-explore b {
+    color: #1F8F4A;
+}
+
+.text-explore a {
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 8px 10px 8px 12px;  
+    border-radius: 10px;
+    background-color: #FCFCFC;
+    color: #1F8F4A;
+    border: 1px solid #1F8F4A;
+}
+
+.text-explore a:hover {
+    background-color: #0AB04A;
+    color: #ffffff;
+    transition: all 0.3s ease-in-out;
+}
+
+.search-explore {
+    margin-top: 3rem;
+    padding-right: 5rem;
+}
+
+.shape-explore {
+    display: flex;
+    overflow-x: hidden;
+}
+
+.wrapper-cardexplore {
+    padding-top: 3rem;
+    padding-bottom: 5rem;
+}
+
+.text-eksplor h1 {
+    font-size: 40px;
+}
+
+.text-eksplor b {
+    color: #1F8F4A;
+}
+
+.card-explore {
+    margin-top: 3rem;
+    background-color: #F9F9F9;
+    padding: 0 0 2rem 0;
+    box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+}
+
+.zoom-effect {   
+    overflow: hidden;
+    border-radius: 20px 20px 0 0;  
+}
+    
+.kotak img {
+    -webkit-transition: 0.4s ease;
+    transition: 0.4s ease;
+}
+   
+.zoom-effect:hover .kotak img {
+    -webkit-transform: scale(1.08);
+    transform: scale(1.08);
+    filter: brightness(0.8);
+}
+
+.title-produk {
+    background-color: #1F8F4A;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.title-produk h5 {
+    font-size: 22px;
+    font-weight: 500;
+    color: #C9E265;
+}
+
+.btn-explore a {
+    margin-top: 1rem;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 8px 15px 8px 16px;  
+    border-radius: 10px;
+    background-color: #1F8F4A;
+    color: #FFFFFF;
+    border: 1px solid #1F8F4A;
+}
+
+.btn-explore a:hover {
+    background-color: #0AB04A;
+    color: #ffffff;
+    transition: all 0.3s ease-in-out;
+}
