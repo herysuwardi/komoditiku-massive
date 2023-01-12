@@ -11,6 +11,8 @@ import Konsultasi from "./pages/layanan/Konsultasi";
 import KursusOnline from "./pages/layanan/KursusOnline";
 import DigitalPemasaran from "./pages/layanan/DigitalPemasaran";
 import ExploreProduk from "./pages/layanan/ExploreProduk";
+import ProdukMentah from "./pages/layanan/ProdukMentah";
+import ProdukJadi from "./pages/layanan/ProdukJadi";
 import DetailKursus from "./components/DetailKursusonline";
 import DetailInstruktur from "./components/DetailInstruktur";
 import DetailArtikel from "./components/DetailArtikel";
@@ -35,6 +37,7 @@ import {
   DETAILVIDEOARTIKEL,
   DETAILPRODUK,
 } from "./router";
+import DetailProduk from "./components/DetailProduk";
 
 function App() {
   return (
@@ -50,10 +53,13 @@ function App() {
         <Route element={<KursusOnline />} path={COURSES} />
         <Route element={<DigitalPemasaran />} path={DIGITALMARKETING} />
         <Route element={<ExploreProduk />} path={EXPLORE} />
+        <Route element={<ProdukMentah />} path={PRODUKMENTAH} />
+        <Route element={<ProdukJadi />} path={PRODUKJADI} />
         <Route element={<DetailKursus />} path={DETAILKURSUS} />
         <Route element={<DetailInstruktur />} path={DETAILINSTRUKTUR} />
         <Route element={<DetailArtikel />} path={DETAILARTIKEL} />
         <Route element={<DetailVideoartikel />} path={DETAILVIDEOARTIKEL} />
+        <Route element={<DetailProduk />} path={DETAILPRODUK} />
       </Routes>
     </div>
   );
