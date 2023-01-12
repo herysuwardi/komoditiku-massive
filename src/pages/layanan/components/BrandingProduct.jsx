@@ -10,7 +10,7 @@ const BrandingProduct = () => {
             <div className="card-title container text-center">
               <img src="./assets/kursusonline/kursus-online-card6.png" />
               <h5 className="mt-4 mb-3">
-                Strategi Perencanaan Produksi Pertanian
+                Elemen penting untuk menentukan branding produk
               </h5>
               <p>
                 <i className="bi bi-star-fill"></i>
@@ -34,7 +34,7 @@ const BrandingProduct = () => {
             <div className="card-title container text-center">
               <img src="./assets/kursusonline/kursus-online-card7.png" />
               <h5 className="container mt-4 mb-3">
-                Manajemen Pemasaran Industri Perikanan
+                5 Hal dihindari dalam proses branding produk
               </h5>
               <p>
                 <i className="bi bi-star-fill"></i>
@@ -58,7 +58,7 @@ const BrandingProduct = () => {
             <div className="card-title container text-center">
               <img src="./assets/kursusonline/kursus-online-card8.png" />
               <h5 className="container mt-4 mb-3">
-                Perencanaan dan Sistem Produksi Pertanian
+                Tips untuk meningkatkan branding produk
               </h5>
               <p>
                 <i className="bi bi-star-fill"></i>
@@ -84,7 +84,7 @@ const BrandingProduct = () => {
             <div className="card-title container text-center">
               <img src="./assets/kursusonline/kursus-online-card9.png" />
               <h5 className="mt-4 mb-3">
-                Strategi Perencanaan Produksi Pertanian
+                Strategi dalam membangun branding produk
               </h5>
               <p>
                 <i className="bi bi-star-fill"></i>
@@ -108,7 +108,7 @@ const BrandingProduct = () => {
             <div className="card-title container text-center">
               <img src="./assets/kursusonline/kursus-online-card10.png" />
               <h5 className="container mt-4 mb-3">
-                Manajemen Pemasaran Industri Perikanan
+                Cara membangun reputasi produk branding yang baik
               </h5>
               <p>
                 <i className="bi bi-star-fill"></i>
@@ -132,7 +132,7 @@ const BrandingProduct = () => {
             <div className="card-title container text-center">
               <img src="./assets/kursusonline/kursus-online-card11.png" />
               <h5 className="container mt-4 mb-3">
-                Perencanaan dan Sistem Produksi Pertanian
+                4 Cara branding produk sehingga dikenal konsumen
               </h5>
               <p>
                 <i className="bi bi-star-fill"></i>

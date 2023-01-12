@@ -10,7 +10,7 @@ const RisetPasar = () => {
             <div className="card-title container text-center">
               <img src="./assets/kursusonline/kursus-online-card12.png" />
               <h5 className="mt-4 mb-3">
-                Strategi Perencanaan Produksi Pertanian
+                Memahami pentingnya riset pasar dalam membangun bisnis
               </h5>
               <p>
                 <i className="bi bi-star-fill"></i>
@@ -34,7 +34,7 @@ const RisetPasar = () => {
             <div className="card-title container text-center">
               <img src="./assets/kursusonline/kursus-online-card13.png" />
               <h5 className="container mt-4 mb-3">
-                Manajemen Pemasaran Industri Perikanan
+                Cara riset market online untuk bisnis
               </h5>
               <p>
                 <i className="bi bi-star-fill"></i>
@@ -58,7 +58,7 @@ const RisetPasar = () => {
             <div className="card-title container text-center">
               <img src="./assets/kursusonline/kursus-online-card14.png" />
               <h5 className="container mt-4 mb-3">
-                Manajemen Pemasaran Industri Perikanan
+                Mengetahui manfaat dari riset pasar
               </h5>
               <p>
                 <i className="bi bi-star-fill"></i>
@@ -84,7 +84,7 @@ const RisetPasar = () => {
             <div className="card-title container text-center">
               <img src="./assets/kursusonline/kursus-online-card15.png" />
               <h5 className="mt-4 mb-3">
-                Strategi Perencanaan Produksi Pertanian
+                5 hal yang perlu di perhatikan ketika melakukan riset pasar
               </h5>
               <p>
                 <i className="bi bi-star-fill"></i>
@@ -108,7 +108,7 @@ const RisetPasar = () => {
             <div className="card-title container text-center">
               <img src="./assets/kursusonline/kursus-online-card16.png" />
               <h5 className="container mt-4 mb-3">
-                Manajemen Pemasaran Industri Perikanan
+                7 Cara riset pasar yang tepat untuk keputusan bisnis
               </h5>
               <p>
                 <i className="bi bi-star-fill"></i>
@@ -132,7 +132,7 @@ const RisetPasar = () => {
             <div className="card-title container text-center">
               <img src="./assets/kursusonline/kursus-online-card17.png" />
               <h5 className="container mt-4 mb-3">
-                Manajemen Pemasaran Industri Perikanan
+                Mengetahui tips apa saja dalam melakukan riset pasar
               </h5>
               <p>
                 <i className="bi bi-star-fill"></i>

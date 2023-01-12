@@ -50,7 +50,7 @@ const Slidertim = () => {
             <div className="row">
               <div className="col">
                 <div className="card-tim text-center container">
-                  <img src="/assets/tim3.png" alt="..." />
+                  <img src="/assets/tim2.png" alt="..." />
                   <h5>Hery</h5>
                   <p>Front End Developer</p>
                   <hr></hr>

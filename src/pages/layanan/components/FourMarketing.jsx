@@ -10,7 +10,7 @@ const FourMarketing = () => {
             <div className="card-title container text-center">
               <img src="./assets/kursusonline/kursus-online-card18.png" />
               <h5 className="mt-4 mb-3">
-                Strategi Perencanaan Produksi Pertanian
+                Strategi pemasaran 4P dan contoh penerapan dalam bisnis
               </h5>
               <p>
                 <i className="bi bi-star-fill"></i>
@@ -34,7 +34,7 @@ const FourMarketing = () => {
             <div className="card-title container text-center">
               <img src="./assets/kursusonline/kursus-online-card19.png" />
               <h5 className="container mt-4 mb-3">
-                Manajemen Pemasaran Industri Perikanan
+                Mengetahui unsur-unsur 4P Marketing
               </h5>
               <p>
                 <i className="bi bi-star-fill"></i>
@@ -58,7 +58,7 @@ const FourMarketing = () => {
             <div className="card-title container text-center">
               <img src="./assets/kursusonline/kursus-online-card20.png" />
               <h5 className="container mt-4 mb-3">
-                Manajemen Pemasaran Industri Perikanan
+                Mengenal apa itu 4P dalam pemasaran
               </h5>
               <p>
                 <i className="bi bi-star-fill"></i>
@@ -84,7 +84,7 @@ const FourMarketing = () => {
             <div className="card-title container text-center">
               <img src="./assets/kursusonline/kursus-online-card21.png" />
               <h5 className="mt-4 mb-3">
-                Strategi Perencanaan Produksi Pertanian
+                Mengetahui apa saja yang ada dalam 4P Marketing
               </h5>
               <p>
                 <i className="bi bi-star-fill"></i>
@@ -108,7 +108,7 @@ const FourMarketing = () => {
             <div className="card-title container text-center">
               <img src="./assets/kursusonline/kursus-online-card22.png" />
               <h5 className="container mt-4 mb-3">
-                Manajemen Pemasaran Industri Perikanan
+                Melakukan penerapan 4P Marketing dalam bisnis
               </h5>
               <p>
                 <i className="bi bi-star-fill"></i>
@@ -132,7 +132,7 @@ const FourMarketing = () => {
             <div className="card-title container text-center">
               <img src="./assets/kursusonline/kursus-online-card23.png" />
               <h5 className="container mt-4 mb-3">
-                Manajemen Pemasaran Industri Perikanan
+                Contoh strategi pemasaran 4P pada promosi
               </h5>
               <p>
                 <i className="bi bi-star-fill"></i>

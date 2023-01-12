@@ -108,7 +108,7 @@ const ManagementProduksi = () => {
             <div className="card-title container text-center">
               <img src="./assets/kursusonline/kursus-online-card15.png" />
               <h5 className="container mt-4 mb-3">
-                Manajemen Pemasaran Industri Perikanan
+                Perencanaan Pola Produksi Pertanian
               </h5>
               <p>
                 <i className="bi bi-star-fill"></i>
