@@ -1,9 +1,9 @@
-import React from "react";
-import { Container } from "react-bootstrap";
-import Slider from "react-slick";
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
-import "./styles/slidertim.css";
+import React from 'react';
+import { Container } from 'react-bootstrap';
+import Slider from 'react-slick';
+import 'slick-carousel/slick/slick.css';
+import 'slick-carousel/slick/slick-theme.css';
+import './styles/slidertim.css';
 
 const Slidertim = () => {
   const settings = {
@@ -107,8 +107,8 @@ const Slidertim = () => {
             <div className="row">
               <div className="col">
                 <div className="card-tim text-center container">
-                  <img src="/assets/tim3.png" alt="..." />
-                  <h5>Letti</h5>
+                  <img src="/assets/tim-letty.png" alt="..." />
+                  <h5>Letty</h5>
                   <p>UI-UX Design</p>
                   <hr></hr>
                   <a href="">
