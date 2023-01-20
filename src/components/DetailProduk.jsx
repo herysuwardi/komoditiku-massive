@@ -99,14 +99,14 @@ const DetailProduk = () => {
                 </div>
               </div>
               <div className="btn-detailproduk text-center mt-4">
-                <Link href="#" className="btn btn-sm me-4">
+                <a href="https://web.whatsapp.com/" className="btn btn-sm me-4">
                   <i class="bi bi-whatsapp me-2"></i>
                   Hubungi Whatsapp
-                </Link>
-                <Link href="#" className="btn btn-sm">
+                </a>
+                <a href="https://mail.google.com/" className="btn btn-sm">
                   <i class="bi bi-envelope me-2"></i>
                   Hubungi Email
-                </Link>
+                </a>
               </div>
               <div className="ulasan-produk mt-5">
                 <h5>
