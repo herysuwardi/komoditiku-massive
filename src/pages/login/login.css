@@ -57,7 +57,7 @@
     margin-top: -46rem;
     background-color: #F9F9F9;
     padding-top: 8rem;
-    padding-bottom: 11.7rem;
+    padding-bottom: 12.7rem;
     margin-left: 3rem;
     border-radius: 4rem 0 0 4rem;
 }
@@ -66,7 +66,7 @@
     margin-top: -46rem;
     background-color: #F9F9F9;
     padding-top: 5rem;
-    padding-bottom: 7rem;
+    padding-bottom: 6.6rem;
     margin-left: 3rem;
     border-radius: 4rem 0 0 4rem;
 }
@@ -81,16 +81,16 @@
     text-decoration: none;
 }
 
-.btn-login a {
-    margin-top: 2rem;
+.btn-login button {
+    margin-top: 1rem;
     background-color: #1F8F4A;
     color: #ffffff;
-    width: 55%;
+    width: 100%;
     font-size: 17px;
     font-weight: 500;
 }
 
-.btn-login a:hover {
+.btn-login button:hover {
     background-color: #0AB04A;
     color: #ffffff;
     transition: all 0.3s ease-in-out;

@@ -5,7 +5,7 @@ nav.navbar {
 }
 
 .navbar-nav {
-    margin-right: 6.5rem;
+    margin-right: 6rem;
     font-size: 18px;
     font-weight: 500;
     padding: 1rem;
@@ -71,4 +71,14 @@ nav.navbar {
     background-color: #0AB04A;
     color: #ffffff;
     transition: all 0.3s ease-in-out;
+}
+
+.btn-profile {
+    font-size: 25px;
+    background-color: #0AB04A;
+}
+
+.btn-profile i {
+    font-size: 28px;
+    color: #1F8F4A;
 }
