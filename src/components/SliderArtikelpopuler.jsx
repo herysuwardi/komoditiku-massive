@@ -35,7 +35,9 @@ const SliderArtikelpopuler = () => {
                       alt=""
                       width="100%"
                     />
-                    <h5>Apa itu Digital Marketing ?</h5>
+                    <div className="container">
+                      <h5>Mengapa Headline Digital Itu Penting</h5>
+                    </div>
                     <hr />
                     <div className="row mt-2">
                       <div className="col-2">
@@ -80,7 +82,9 @@ const SliderArtikelpopuler = () => {
                       alt=""
                       width="100%"
                     />
-                    <h5>Apa itu Digital Marketing ?</h5>
+                    <div className="container">
+                      <h5>Menentukan Audience di Dalam Digital Marketing</h5>
+                    </div>
                     <hr />
                     <div className="row mt-2">
                       <div className="col-2">
@@ -125,7 +129,9 @@ const SliderArtikelpopuler = () => {
                       alt=""
                       width="100%"
                     />
-                    <h5>Apa itu Digital Marketing ?</h5>
+                    <div className="container">
+                      <h5>Penggunaan KPI dalam Digital Marketing</h5>
+                    </div>
                     <hr />
                     <div className="row mt-2">
                       <div className="col-2">
@@ -170,7 +176,9 @@ const SliderArtikelpopuler = () => {
                       alt=""
                       width="100%"
                     />
-                    <h5>Apa itu Digital Marketing ?</h5>
+                    <div className="container">
+                      <h5>Social Media, Blogging Dalam Trend Digital</h5>
+                    </div>
                     <hr />
                     <div className="row mt-2">
                       <div className="col-2">
@@ -215,7 +223,9 @@ const SliderArtikelpopuler = () => {
                       alt=""
                       width="100%"
                     />
-                    <h5>Apa itu Digital Marketing ?</h5>
+                    <div className="container">
+                      <h5>Apa itu Strategi Digital Marketing ?</h5>
+                    </div>
                     <hr />
                     <div className="row mt-2">
                       <div className="col-2">

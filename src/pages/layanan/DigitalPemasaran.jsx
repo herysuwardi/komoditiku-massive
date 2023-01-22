@@ -75,7 +75,9 @@ const DigitalPemasaran = () => {
                     alt=""
                     width="100%"
                   />
-                  <h5>Apa itu Digital Marketing ?</h5>
+                  <div className="container">
+                    <h5>Apa itu Strategi Digital Marketing?</h5>
+                  </div>
                   <hr />
                   <div className="row mt-2">
                     <div className="col-2">
@@ -118,7 +120,9 @@ const DigitalPemasaran = () => {
                     alt=""
                     width="100%"
                   />
-                  <h5>Apa itu Digital Marketing ?</h5>
+                  <div className="container">
+                    <h5>Contoh Digital Marketing pada Usaha</h5>
+                  </div>
                   <hr />
                   <div className="row mt-2">
                     <div className="col-2">
@@ -161,7 +165,9 @@ const DigitalPemasaran = () => {
                     alt=""
                     width="100%"
                   />
-                  <h5>Apa itu Digital Marketing ?</h5>
+                  <div className="container">
+                    <h5>Smart Strategi pada Digital Marketing</h5>
+                  </div>
                   <hr />
                   <div className="row mt-2">
                     <div className="col-2">
@@ -204,7 +210,9 @@ const DigitalPemasaran = () => {
                     alt=""
                     width="100%"
                   />
-                  <h5>Apa itu Digital Marketing ?</h5>
+                  <div className="container">
+                    <h5>Penggunaan Tool dalam Digital Marketing</h5>
+                  </div>
                   <hr />
                   <div className="row mt-2">
                     <div className="col-2">
@@ -249,7 +257,9 @@ const DigitalPemasaran = () => {
                     alt=""
                     width="100%"
                   />
-                  <h5>Apa itu Digital Marketing ?</h5>
+                  <div className="container">
+                    <h5>Kamus Dalam Mempelajari Digital Marketing</h5>
+                  </div>
                   <hr />
                   <div className="row mt-2">
                     <div className="col-2">
@@ -292,7 +302,9 @@ const DigitalPemasaran = () => {
                     alt=""
                     width="100%"
                   />
-                  <h5>Apa itu Digital Marketing ?</h5>
+                  <div className="container">
+                    <h5>Tradisional vs Digital Marketing</h5>
+                  </div>
                   <hr />
                   <div className="row mt-2">
                     <div className="col-2">
@@ -335,7 +347,9 @@ const DigitalPemasaran = () => {
                     alt=""
                     width="100%"
                   />
-                  <h5>Apa itu Digital Marketing ?</h5>
+                  <div className="container">
+                    <h5>Proses dalam Digital Marketing</h5>
+                  </div>
                   <hr />
                   <div className="row mt-2">
                     <div className="col-2">
@@ -378,7 +392,9 @@ const DigitalPemasaran = () => {
                     alt=""
                     width="100%"
                   />
-                  <h5>Apa itu Digital Marketing ?</h5>
+                  <div className="container">
+                    <h5>Tren Digital Marketing di Tahun 2022</h5>
+                  </div>
                   <hr />
                   <div className="row mt-2">
                     <div className="col-2">

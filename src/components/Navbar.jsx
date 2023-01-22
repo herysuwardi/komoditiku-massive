@@ -3,7 +3,15 @@ import { NavLink, Link, useNavigate } from "react-router-dom";
 import jwtDecode from "jwt-decode";
 import Logoheading from "../images/logo-heading.png";
 import "./styles/navbar.css";
-import { HOME, SERVICE, ABOUT, CONTACT, LOGIN, REGISTER } from "../router";
+import {
+  HOME,
+  SERVICE,
+  ABOUT,
+  CONTACT,
+  LOGIN,
+  REGISTER,
+  PROFILE,
+} from "../router";
 
 const Navs = () => {
   const navigate = useNavigate();
@@ -30,7 +38,7 @@ const Navs = () => {
           menuVariant="dark"
           align={{ lg: "end" }}
         >
-          <Dropdown.Item href={""} className="drop-down">
+          <Dropdown.Item href={PROFILE} className="drop-down">
             <i className="bi bi-person-circle me-2"></i>Akun Profil
           </Dropdown.Item>
           <NavDropdown.Divider />

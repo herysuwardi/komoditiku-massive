@@ -1,0 +1,84 @@
+.profile-account {
+    padding-top: 9rem;
+    padding-bottom: 8rem;
+    background-color: #FCFCFC;
+}
+
+.profile-img{
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.profile-img i {
+    color: #FFFFFF;
+    font-size: 25px;
+}
+
+.profile-img hr {
+    margin-top: -1rem;
+}
+
+.camera-fill {
+    position: relative;
+    top: -6.9rem;
+    left: 3rem;
+    background-color: #1F8F4A;
+    border-radius: 3rem;
+    padding: 11px 8px 4px 8px;
+}
+
+.edit-profile {
+    background: #F9F9F9;
+    box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+    padding: 2rem 2rem 2rem 2rem;
+}
+
+.list-profile i {
+    color: #1F8F4A;
+    font-size: 20px;
+}
+
+.list-profile a {
+    color: black;
+    text-decoration: none;
+}
+
+.edit-profile a:hover {
+    color: #1F8F4A;
+}
+
+.edit-profile p {
+    padding-left: 1rem;
+}
+
+.edit-profile p:hover {
+    background-color: rgba(10, 176, 74, 0.05);
+    border-right: 2px solid #1F8F4A;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.data-profile {
+    background: #F9F9F9;
+    box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+    padding: 2rem;
+}
+
+.data-profile h4 {
+    font-weight: 700;
+}
+
+.list-dataprofile h5 {
+    margin-bottom: 2rem;
+}
+
+.edit-data {
+    text-decoration: none;
+    color: #1F8F4A;
+}
+
+.edit-data:hover {
+    color: #1F8F4A;
+}

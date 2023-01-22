@@ -15,7 +15,7 @@ const DetailArtikel = () => {
             <div className="col-8">
               <img src="/assets/detail-artikel.png" width="100%" alt="" />
               <div className="title-detailkursus">
-                <h4>Apa itu Digital Marketing?</h4>
+                <h4>Apa itu Strategi Digital Marketing?</h4>
               </div>
               <div className="profile-detailartikel">
                 <div className="row">

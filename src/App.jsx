@@ -13,6 +13,7 @@ import DigitalPemasaran from "./pages/layanan/DigitalPemasaran";
 import ExploreProduk from "./pages/layanan/ExploreProduk";
 import ProdukMentah from "./pages/layanan/ProdukMentah";
 import ProdukJadi from "./pages/layanan/ProdukJadi";
+import ProfileAccount from "./pages/profile/ProfileAccount";
 import DetailKursus from "./components/DetailKursusonline";
 import DetailInstruktur from "./components/DetailInstruktur";
 import DetailArtikel from "./components/DetailArtikel";
@@ -31,6 +32,7 @@ import {
   EXPLORE,
   PRODUKMENTAH,
   PRODUKJADI,
+  PROFILE,
   DETAILKURSUS,
   DETAILINSTRUKTUR,
   DETAILARTIKEL,
@@ -55,6 +57,7 @@ function App() {
         <Route element={<ExploreProduk />} path={EXPLORE} />
         <Route element={<ProdukMentah />} path={PRODUKMENTAH} />
         <Route element={<ProdukJadi />} path={PRODUKJADI} />
+        <Route element={<ProfileAccount />} path={PROFILE} />
         <Route element={<DetailKursus />} path={DETAILKURSUS} />
         <Route element={<DetailInstruktur />} path={DETAILINSTRUKTUR} />
         <Route element={<DetailArtikel />} path={DETAILARTIKEL} />
