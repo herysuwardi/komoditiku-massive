@@ -1,4 +1,4 @@
-import { Navbar, Container, Nav, NavDropdown } from "react-bootstrap";
+import { Navbar, Container, Nav, NavDropdown, Dropdown } from "react-bootstrap";
 import { NavLink, Link, useNavigate } from "react-router-dom";
 import jwtDecode from "jwt-decode";
 import Logoheading from "../images/logo-heading.png";
@@ -18,15 +18,28 @@ const Navs = () => {
 
   const displayButton =
     splitToken !== undefined ? (
-      <button
-        className="btn btn-profile"
-        type="button"
-        onClick={() => logout()}
-      >
-        <b>Hy, Salman Fardinan!</b>
-        <i className="bi bi-person-circle ms-2"></i>
-        {email}
-      </button>
+      <>
+        <NavDropdown
+          className="user-nav ms-auto"
+          title={
+            <>
+              Hy, Salman Fardinan! {email}
+              <i className="bi bi-person-circle ms-1"></i>
+            </>
+          }
+          menuVariant="dark"
+          align={{ lg: "end" }}
+        >
+          <Dropdown.Item href={""} className="drop-down">
+            <i className="bi bi-person-circle me-2"></i>Akun Profil
+          </Dropdown.Item>
+          <NavDropdown.Divider />
+          <Dropdown.Item onClick={() => logout()} className="drop-down">
+            <i className="bi bi-box-arrow-left me-2"></i>
+            Keluar
+          </Dropdown.Item>
+        </NavDropdown>
+      </>
     ) : (
       <>
         <Link to={LOGIN} className="btn1-nav me-2">
@@ -45,7 +58,7 @@ const Navs = () => {
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
-          <Nav className="wrapper-navbar ms-auto">
+          <Nav className="wrapper-navbar">
             <NavLink className="navbar-link" to={HOME}>
               Beranda
             </NavLink>

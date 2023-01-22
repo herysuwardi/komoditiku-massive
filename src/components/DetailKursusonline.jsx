@@ -3,6 +3,19 @@ import { Link } from "react-router-dom";
 import Navs from "../components/Navbar";
 import Footer from "../components/Footer";
 import "./styles/detailkursusonline.css";
+import Swal from "sweetalert2";
+
+const BtnBuyerKursus = () => {
+  Swal.fire({
+    title: "Pembayaran Kursus Online",
+    text: "Anda harus login terlebih dahulu!",
+    icon: "warning",
+    cancelButtonText: "Kembali",
+    confirmButtonText: "Login",
+    confirmButtonColor: "#1F8F4A",
+    showCancelButton: true,
+  });
+};
 
 const DetailKursus = () => {
   return (
@@ -34,7 +47,12 @@ const DetailKursus = () => {
                     </p>
                   </div>
                   <div className="col-3">
-                    <Link to="#" type="button" className="btn btn-sm">
+                    <Link
+                      to={""}
+                      type="button"
+                      className="btn btn-sm"
+                      onClick={() => BtnBuyerKursus()}
+                    >
                       Rp. 200.000
                     </Link>
                   </div>

@@ -6,7 +6,19 @@ import FreeJoin from "../../components/FreeJoin";
 import Footer from "../../components/Footer";
 import Heroexploreproduk from "../../images/hero-eksplorproduk.png";
 import "./styles/produkmentahjadi.css";
+import Swal from "sweetalert2";
 import { DETAILPRODUK } from "../../router";
+
+const BtnDetailProduk = () => {
+  Swal.fire({
+    text: "Untuk melihat detail produk, anda harus login telebih dahulu!",
+    icon: "warning",
+    cancelButtonText: "Kembali",
+    confirmButtonText: "Login",
+    confirmButtonColor: "#1F8F4A",
+    showCancelButton: true,
+  });
+};
 
 const ProdukJadi = () => {
   return (
@@ -110,7 +122,7 @@ const ProdukJadi = () => {
                       <p className="text-muted">Kab. Sleman</p>
                     </div>
                     <div className="col col-3 mt-2">
-                      <Link to={DETAILPRODUK}>
+                      <Link to={""} onClick={() => BtnDetailProduk()}>
                         <i className="bi bi-arrow-up-right-square-fill fs-1"></i>
                       </Link>
                     </div>
@@ -161,7 +173,7 @@ const ProdukJadi = () => {
                       <p className="text-muted">Kab. Sleman</p>
                     </div>
                     <div className="col col-3 mt-2">
-                      <Link to={DETAILPRODUK}>
+                      <Link to={""} onClick={() => BtnDetailProduk()}>
                         <i className="bi bi-arrow-up-right-square-fill fs-1"></i>
                       </Link>
                     </div>
@@ -212,7 +224,7 @@ const ProdukJadi = () => {
                       <p className="text-muted">Kab. Sleman</p>
                     </div>
                     <div className="col col-3 mt-2">
-                      <Link to={DETAILPRODUK}>
+                      <Link to={""} onClick={() => BtnDetailProduk()}>
                         <i className="bi bi-arrow-up-right-square-fill fs-1"></i>
                       </Link>
                     </div>
@@ -263,7 +275,7 @@ const ProdukJadi = () => {
                       <p className="text-muted">Kab. Sleman</p>
                     </div>
                     <div className="col col-3 mt-2">
-                      <Link to={DETAILPRODUK}>
+                      <Link to={""} onClick={() => BtnDetailProduk()}>
                         <i className="bi bi-arrow-up-right-square-fill fs-1"></i>
                       </Link>
                     </div>

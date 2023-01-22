@@ -72,7 +72,7 @@
 .label-harga {
     font-size: 100px;
     background-color: #0AB04A;
-    opacity: 0.8;
+    opacity: 100;
     color: #FFFFFF;
     width: 143px;
     height: 35px;
@@ -90,7 +90,7 @@
 .label-produk {
     font-size: 10px;
     background-color: #0AB04A;
-    opacity: 0.8;
+    opacity: 100;
     color: #ffffff;
     width: 120px;
     height: 25px;

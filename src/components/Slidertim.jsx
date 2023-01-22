@@ -31,17 +31,17 @@ const Slidertim = () => {
             <div className="row">
               <div className="col">
                 <div className="card-tim text-center container">
-                  <img src="/assets/tim3.png" alt="..." />
+                  <img src="/assets/tim-risqi.png" alt="..." />
                   <h5>Risqi</h5>
                   <p>Front End Developer</p>
                   <hr></hr>
-                  <a href="">
+                  <a href="#">
                     <i className="bi bi-facebook me-4"></i>
                   </a>
-                  <a href="">
+                  <a href="#">
                     <i className="bi bi-instagram me-4"></i>
                   </a>
-                  <a href="">
+                  <a href="#">
                     <i className="bi bi-linkedin"></i>
                   </a>
                 </div>
@@ -54,13 +54,13 @@ const Slidertim = () => {
                   <h5>Hery</h5>
                   <p>Front End Developer</p>
                   <hr></hr>
-                  <a href="https://web.facebook.com/hery.suwardi.1">
+                  <a href="#">
                     <i className="bi bi-facebook me-4"></i>
                   </a>
-                  <a href="https://www.instagram.com/hryy.18/?hl=id">
+                  <a href="#">
                     <i className="bi bi-instagram me-4"></i>
                   </a>
-                  <a href="">
+                  <a href="#">
                     <i className="bi bi-linkedin"></i>
                   </a>
                 </div>
@@ -73,13 +73,13 @@ const Slidertim = () => {
                   <h5>Salman</h5>
                   <p>Project Manager</p>
                   <hr></hr>
-                  <a href="">
+                  <a href="#">
                     <i className="bi bi-facebook me-4"></i>
                   </a>
-                  <a href="">
+                  <a href="#">
                     <i className="bi bi-instagram me-4"></i>
                   </a>
-                  <a href="">
+                  <a href="#">
                     <i className="bi bi-linkedin"></i>
                   </a>
                 </div>
@@ -88,17 +88,17 @@ const Slidertim = () => {
             <div className="row">
               <div className="col">
                 <div className="card-tim text-center container">
-                  <img src="/assets/tim3.png" alt="..." />
+                  <img src="/assets/tim-vero.png" alt="..." />
                   <h5>Vero</h5>
                   <p>UI-UX Design</p>
                   <hr></hr>
-                  <a href="">
+                  <a href="#">
                     <i className="bi bi-facebook me-4"></i>
                   </a>
-                  <a href="">
+                  <a href="#">
                     <i className="bi bi-instagram me-4"></i>
                   </a>
-                  <a href="">
+                  <a href="#">
                     <i className="bi bi-linkedin"></i>
                   </a>
                 </div>
@@ -111,13 +111,13 @@ const Slidertim = () => {
                   <h5>Letty</h5>
                   <p>UI-UX Design</p>
                   <hr></hr>
-                  <a href="">
+                  <a href="#">
                     <i className="bi bi-facebook me-4"></i>
                   </a>
-                  <a href="">
+                  <a href="#">
                     <i className="bi bi-instagram me-4"></i>
                   </a>
-                  <a href="">
+                  <a href="#">
                     <i className="bi bi-linkedin"></i>
                   </a>
                 </div>

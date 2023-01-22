@@ -5,7 +5,7 @@ nav.navbar {
 }
 
 .navbar-nav {
-    margin-right: 6rem;
+    margin-left: 8.3rem;
     font-size: 18px;
     font-weight: 500;
     padding: 1rem;
@@ -73,12 +73,21 @@ nav.navbar {
     transition: all 0.3s ease-in-out;
 }
 
-.btn-profile {
-    font-size: 25px;
-    background-color: #0AB04A;
+.user-nav {
+    font-size: 17px;
+    font-weight: 700;
 }
 
-.btn-profile i {
-    font-size: 28px;
+.user-nav i {
+    font-size: 30px;
     color: #1F8F4A;
+}
+
+.user-nav:hover {
+    color: #1F8F4A;
+}
+
+.drop-down i {
+    color: #ffffff;
+    font-size: 18px;
 }
