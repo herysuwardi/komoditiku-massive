@@ -18,8 +18,8 @@ const ApiProductJadi = () => {
 
   return (
     <div className="row">
-      {products.map((product) => (
-        <CardProductJadi key={product.id} product={product} />
+      {products.map((product, key) => (
+        <CardProductJadi key={key} product={product} />
       ))}
     </div>
   );

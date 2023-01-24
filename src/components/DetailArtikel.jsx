@@ -44,10 +44,10 @@ const DetailArtikel = () => {
                       <i className="bi bi-linkedin"></i>
                     </a>
                     <a href="#">
-                      <i class="bi bi-envelope-fill"></i>
+                      <i className="bi bi-envelope-fill"></i>
                     </a>
                     <a href="#">
-                      <i class="bi bi-link-45deg"></i>
+                      <i className="bi bi-link-45deg"></i>
                     </a>
                   </div>
                 </div>

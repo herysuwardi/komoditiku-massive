@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import CardProductMentah from "./CardProductMentah";
 import axios from "axios";
 
-const Product = () => {
+const ApiProductMentah = () => {
   const [products, setProduct] = useState([]);
 
   useEffect(() => {
@@ -18,11 +18,11 @@ const Product = () => {
 
   return (
     <div className="row">
-      {products.map((product) => (
-        <CardProductMentah key={product.id} product={product} />
+      {products.map((product, key) => (
+        <CardProductMentah key={key} product={product} />
       ))}
     </div>
   );
 };
 
-export default Product;
+export default ApiProductMentah;

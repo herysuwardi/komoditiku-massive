@@ -12,7 +12,7 @@ const TableProduct = () => {
 
   const getAllProducts = async () => {
     const { data: response } = await axios.get(
-      `${process.env.REACT_APP_API}/products-mentah`
+      `${process.env.REACT_APP_API}/products`
     );
     setProduct(response.data);
   };

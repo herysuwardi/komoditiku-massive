@@ -18,8 +18,8 @@ const ApiArticle = () => {
 
   return (
     <div className="row">
-      {articles.map((article) => (
-        <CardArticle key={article.id} article={article} />
+      {articles.map((article, key) => (
+        <CardArticle key={key} article={article} />
       ))}
     </div>
   );
