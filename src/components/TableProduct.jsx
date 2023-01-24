@@ -19,7 +19,7 @@ const TableProduct = () => {
 
   const deleteProduct = async (id) => {
     try {
-      await axios.delete(`${process.env.REACT_APP_API}/products-mentah/${id}`);
+      await axios.delete(`${process.env.REACT_APP_API}/products/${id}`);
       getAllProducts();
     } catch (error) {
       console.log(error);

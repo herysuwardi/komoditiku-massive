@@ -57,7 +57,9 @@ const CardProductMentah = ({ product }) => {
         <div className="container">
           <div className="row d-flex arrow">
             <div className="col col-2 mt-2 me-2">
-              <img src="./assets/exploreproduk/profile5.png" />
+              <img
+                src={`http://localhost:4000/pelaku_umkm/${product.foto_umkm}`}
+              />
             </div>
             <div className="col col-6 mt-2">
               <p>{product.nama_umkm}</p>
