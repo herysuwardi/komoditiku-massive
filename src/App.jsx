@@ -18,6 +18,8 @@ import DetailKursus from "./components/DetailKursusonline";
 import DetailInstruktur from "./components/DetailInstruktur";
 import DetailArtikel from "./components/DetailArtikel";
 import DetailVideoartikel from "./components/DetailVideoartikel";
+import AddProduct from "./components/AddProduct";
+import EditProduct from "./components/EditProduct";
 
 import {
   HOME,
@@ -63,6 +65,8 @@ function App() {
         <Route element={<DetailArtikel />} path={DETAILARTIKEL} />
         <Route element={<DetailVideoartikel />} path={DETAILVIDEOARTIKEL} />
         <Route element={<DetailProduk />} path={DETAILPRODUK} />
+        <Route element={<EditProduct />} path="/edit/:id" />
+        <Route element={<AddProduct />} path="/addproduct" />
       </Routes>
     </div>
   );

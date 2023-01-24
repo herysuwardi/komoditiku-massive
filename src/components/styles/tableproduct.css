@@ -1,0 +1,24 @@
+.column {
+    margin-top: 8rem;
+    margin-bottom: 6rem;
+}
+
+.column form {
+    background-color: #F9F9F9;
+    box-shadow: 1px 3px 10px rgba(0,0,0,0.1);
+    border-radius: 2rem;
+    padding: 3rem 5rem 3rem 5rem;
+    margin-left: 20rem;
+    margin-right: 20rem;
+}
+
+.btn-edit a {
+    background-color: #1F8F4A;
+    color: #ffffff;
+}
+
+.btn-edit a:hover {
+    background-color: #0AB04A;
+    color: #ffffff;
+    transition: all 0.3s ease-in-out;
+}

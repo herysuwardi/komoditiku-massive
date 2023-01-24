@@ -1,6 +1,7 @@
 import { Container } from "react-bootstrap";
 import HOC from "../../components/HOC";
 import Navs from "../../components/Navbar";
+import TableProduct from "../../components/TableProduct";
 import Footer from "../../components/Footer";
 import "./profileaccount.css";
 
@@ -89,6 +90,8 @@ const ProfileAccount = () => {
               </div>
             </div>
           </div>
+          <h3 className="mt-5">Kelola Data Produk</h3>
+          <TableProduct />
         </Container>
       </section>
       <Footer />
