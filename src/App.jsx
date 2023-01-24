@@ -65,8 +65,8 @@ function App() {
         <Route element={<DetailArtikel />} path={DETAILARTIKEL} />
         <Route element={<DetailVideoartikel />} path={DETAILVIDEOARTIKEL} />
         <Route element={<DetailProduk />} path={DETAILPRODUK} />
-        <Route element={<EditProduct />} path="/edit/:id" />
         <Route element={<AddProduct />} path="/addproduct" />
+        <Route element={<EditProduct />} path="/edit/:id" />
       </Routes>
     </div>
   );

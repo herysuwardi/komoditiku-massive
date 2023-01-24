@@ -2,7 +2,7 @@ import { Container } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import HOC from "../../components/HOC";
 import Navs from "../../components/Navbar";
-import Product from "../../components/Product";
+import ApiProductMentah from "../../components/ApiProductMentah";
 import FreeJoin from "../../components/FreeJoin";
 import Footer from "../../components/Footer";
 import Heroexploreproduk from "../../images/hero-eksplorproduk.png";
@@ -66,7 +66,7 @@ const ProdukMentah = () => {
               kami menyediakan berbagai jenis produk sesuai kebutuhan anda!
             </p>
           </div>
-          <Product />
+          <ApiProductMentah />
         </Container>
       </section>
 

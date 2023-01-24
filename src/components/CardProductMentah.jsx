@@ -14,12 +14,12 @@ const BtnDetailProduk = () => {
   });
 };
 
-const CardProduct = ({ product }) => {
+const CardProductMentah = ({ product }) => {
   return (
     <div className="col-3">
       <div className="card-produk">
         <img
-          src={`http://localhost:4000/images/${product.foto_produk}`}
+          src={`http://localhost:4000/product/${product.foto_produk}`}
           className="img-header"
           width="100%"
         />
@@ -60,8 +60,8 @@ const CardProduct = ({ product }) => {
               <img src="./assets/exploreproduk/profile5.png" />
             </div>
             <div className="col col-6 mt-2">
-              <p>{product.pelaku_umkm}</p>
-              <p className="text-muted">{product.asal_produk}</p>
+              <p>{product.nama_umkm}</p>
+              <p className="text-muted">{product.asal_umkm}</p>
             </div>
             <div className="col col-3 mt-2">
               <Link to={DETAILPRODUK} onClick={() => ""()}>
@@ -75,4 +75,4 @@ const CardProduct = ({ product }) => {
   );
 };
 
-export default CardProduct;
+export default CardProductMentah;

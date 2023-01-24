@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import CardProduct from "./CardProduct";
+import CardProductMentah from "./CardProductMentah";
 import axios from "axios";
 
 const Product = () => {
@@ -11,7 +11,7 @@ const Product = () => {
 
   const getAllProducts = async () => {
     const { data: response } = await axios.get(
-      `${process.env.REACT_APP_API}/products`
+      `${process.env.REACT_APP_API}/products-mentah`
     );
     setProduct(response.data);
   };
@@ -19,7 +19,7 @@ const Product = () => {
   return (
     <div className="row">
       {products.map((product) => (
-        <CardProduct key={product.id} product={product} />
+        <CardProductMentah key={product.id} product={product} />
       ))}
     </div>
   );

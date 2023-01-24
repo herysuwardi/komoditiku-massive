@@ -12,14 +12,14 @@ const TableProduct = () => {
 
   const getAllProducts = async () => {
     const { data: response } = await axios.get(
-      `${process.env.REACT_APP_API}/products`
+      `${process.env.REACT_APP_API}/products-mentah`
     );
     setProduct(response.data);
   };
 
   const deleteProduct = async (id) => {
     try {
-      await axios.delete(`${process.env.REACT_APP_API}/products/${id}`);
+      await axios.delete(`${process.env.REACT_APP_API}/products-mentah/${id}`);
       getAllProducts();
     } catch (error) {
       console.log(error);
@@ -54,8 +54,8 @@ const TableProduct = () => {
                 <td className="table-light">{product.harga}</td>
                 <td className="table-light">{product.kategori}</td>
                 <td className="table-light">{product.persediaan}</td>
-                <td className="table-light">{product.pelaku_umkm}</td>
-                <td className="table-light">{product.asal_produk}</td>
+                <td className="table-light">{product.nama_umkm}</td>
+                <td className="table-light">{product.asal_umkm}</td>
                 <td className="table-light">
                   <div className="btn-edit">
                     <Link

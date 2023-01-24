@@ -11,8 +11,8 @@ const EditProduct = () => {
   const [harga, setHarga] = useState("");
   const [kategori, setKategori] = useState("");
   const [persediaan, setPersediaan] = useState("");
-  const [pelaku_umkm, setPelakuUmkm] = useState("");
-  const [asal_produk, setAsalProduk] = useState("");
+  const [nama_umkm, setPelakuUmkm] = useState("");
+  const [asal_umkm, setAsalProduk] = useState("");
   const [foto_produk, setFotoProduk] = useState("");
   const navigate = useNavigate();
   const { id } = useParams();
@@ -29,8 +29,8 @@ const EditProduct = () => {
         harga,
         kategori,
         persediaan,
-        pelaku_umkm,
-        asal_produk,
+        nama_umkm,
+        asal_umkm,
         foto_produk,
       });
       navigate("/detailprodukmentah");
@@ -47,8 +47,8 @@ const EditProduct = () => {
     setHarga(response.data.harga);
     setKategori(response.data.kategori);
     setPersediaan(response.data.persediaan);
-    setPelakuUmkm(response.data.pelaku_umkm);
-    setAsalProduk(response.data.asal_produk);
+    setPelakuUmkm(response.data.nama_umkm);
+    setAsalProduk(response.data.asal_umkm);
   };
 
   return (
@@ -103,7 +103,7 @@ const EditProduct = () => {
               <input
                 type="text"
                 className="form-control"
-                value={pelaku_umkm}
+                value={nama_umkm}
                 onChange={(e) => setPelakuUmkm(e.target.value)}
                 placeholder="pelaku UMKM"
               />
@@ -113,7 +113,7 @@ const EditProduct = () => {
               <input
                 type="text"
                 className="form-control"
-                value={asal_produk}
+                value={asal_umkm}
                 onChange={(e) => setAsalProduk(e.target.value)}
                 placeholder="asal produk"
               />
