@@ -13,6 +13,7 @@ import Heroshape2 from "../images/hero-shape2.png";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import "./styles/home.css";
+import { CONSUL } from "../router";
 
 const Home = () => {
   useEffect(() => {
@@ -38,7 +39,7 @@ const Home = () => {
             komoditas yang ada.
           </p>
           <div className="btn-herohome">
-            <Link className="btn" href="#">
+            <Link className="btn" to={CONSUL}>
               Temukan Solusimu <i className="bi bi-arrow-right"></i>
             </Link>
           </div>

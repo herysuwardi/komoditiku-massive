@@ -9,7 +9,7 @@ const CardArticle = ({ article }) => {
         <div className="card-titleartikel">
           <img
             src={`http://localhost:4000/article/${article.foto_artikel}`}
-            alt=""
+            alt="foto-artikel"
             width="100%"
           />
           <div className="container">
@@ -19,8 +19,8 @@ const CardArticle = ({ article }) => {
           <div className="row mt-2">
             <div className="col-2">
               <img
-                src="../../assets/profile-artikel4.png"
-                alt=""
+                src={`http://localhost:4000/article/${article.foto_penulis}`}
+                alt="foto-penulis"
                 width="50"
                 height="50"
                 className="ms-2"
