@@ -17,7 +17,7 @@ const Navs = () => {
   const navigate = useNavigate();
   const token = localStorage.getItem(process.env.REACT_APP_AUTH);
   const splitToken = token.split(" ")[1];
-  const { email } = jwtDecode(splitToken);
+  const { name } = jwtDecode(splitToken);
 
   const logout = () => {
     localStorage.removeItem(process.env.REACT_APP_AUTH);
@@ -31,7 +31,7 @@ const Navs = () => {
           className="user-nav ms-auto"
           title={
             <>
-              Hy, Salman Fardinan! {email}
+              Hy, Salman Fardinan! {name}
               <i className="bi bi-person-circle ms-1"></i>
             </>
           }

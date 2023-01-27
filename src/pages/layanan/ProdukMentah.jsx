@@ -34,7 +34,7 @@ const ProdukMentah = () => {
                     id="search"
                     type="text"
                     className="form-control"
-                    placeholder="Apa yang ingin anda pelajari?"
+                    placeholder="Cari kebutuhan produk anda?"
                   />
                   <span className="input-group-text" id="search">
                     <i className="bi bi-search"></i>
