@@ -1,6 +1,5 @@
 import { Navbar, Container, Nav, NavDropdown, Dropdown } from "react-bootstrap";
 import { NavLink, Link, useNavigate } from "react-router-dom";
-import jwtDecode from "jwt-decode";
 import Logoheading from "../images/logo-heading.png";
 import "./styles/navbar.css";
 import {
@@ -16,23 +15,22 @@ import {
 const Navs = () => {
   const navigate = useNavigate();
   const token = localStorage.getItem(process.env.REACT_APP_AUTH);
-  const splitToken = token.split(" ")[1];
-  const { name } = jwtDecode(splitToken);
+  const name = localStorage.getItem("fullname");
 
   const logout = () => {
     localStorage.removeItem(process.env.REACT_APP_AUTH);
-    navigate("/masuk", { replace: true });
+    localStorage.removeItem("fullname");
+    navigate("/", { replace: true });
   };
 
   const displayButton =
-    splitToken !== undefined ? (
+    token !== null ? (
       <>
         <NavDropdown
           className="user-nav ms-auto"
           title={
             <>
-              Hy, Salman Fardinan! {name}
-              <i className="bi bi-person-circle ms-1"></i>
+              Hy, {name}!<i className="bi bi-person-circle ms-1"></i>
             </>
           }
           menuVariant="dark"
@@ -50,7 +48,7 @@ const Navs = () => {
       </>
     ) : (
       <>
-        <Link to={LOGIN} className="btn1-nav me-2">
+        <Link to={LOGIN} className="btn1-nav me-2 ms-auto">
           Masuk
         </Link>
         <Link to={REGISTER} className="btn2-nav">

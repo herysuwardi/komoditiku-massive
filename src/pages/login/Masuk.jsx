@@ -23,6 +23,7 @@ const Masuk = () => {
       if (data.Authorization) {
         Swal.fire("Selamat Datang Kembali!", "", "success");
         localStorage.setItem(process.env.REACT_APP_AUTH, data.Authorization);
+        localStorage.setItem("fullname", data.name);
         navigate("/", { replace: true });
       }
     } catch (error) {
