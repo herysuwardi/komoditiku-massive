@@ -1,8 +1,8 @@
 import { useState } from "react";
+import { useNavigate } from "react-router-dom";
 import { Container } from "react-bootstrap";
 import HOC from "../../components/HOC";
 import Navs from "../../components/Navbar";
-import TableProduct from "../../components/TableProduct";
 import Footer from "../../components/Footer";
 import Profil from "./components/Profil";
 import ProdukTersimpan from "./components/ProdukTersimpan";
@@ -22,6 +22,13 @@ const BtnProfile = ({ title, onClick }) => {
 
 const ProfileAccount = () => {
   const [content, setContent] = useState(0);
+  const navigate = useNavigate();
+
+  const logout = () => {
+    localStorage.removeItem(process.env.REACT_APP_AUTH);
+    localStorage.removeItem("fullname");
+    navigate("/", { replace: true });
+  };
 
   const changeContent = (numberContent) =>
     setContent((prevState) => (prevState = numberContent));
@@ -37,10 +44,8 @@ const ProfileAccount = () => {
       <RiwayatKonsultasi />
     ) : content === 4 ? (
       <ArtikelTersimpan />
-    ) : content === 5 ? (
-      <GantiPassword />
     ) : (
-      <Profil />
+      <GantiPassword />
     );
   return (
     <HOC title="Akun Profil - Komoditiku">
@@ -117,7 +122,7 @@ const ProfileAccount = () => {
                         <i className="bi bi-box-arrow-right me-3"></i>Keluar
                       </>
                     }
-                    onClick={() => changeContent(6)}
+                    onClick={() => logout()}
                   />
                 </div>
               </div>
@@ -126,8 +131,6 @@ const ProfileAccount = () => {
               <div className="data-profile">{displayContent}</div>
             </div>
           </div>
-          <h3 className="mt-5">Kelola Data Produk</h3>
-          <TableProduct />
         </Container>
       </section>
       <Footer />

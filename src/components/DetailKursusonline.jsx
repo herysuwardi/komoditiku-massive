@@ -101,30 +101,30 @@ const DetailKursus = () => {
                 <br />
                 <h4>Apa yang akan anda pelajari</h4>
                 <p>
-                  <i class="bi bi-check-circle me-3"></i>Industri perikanan di
-                  indonesia
+                  <i className="bi bi-check-circle me-3"></i>Industri perikanan
+                  di indonesia
                 </p>
                 <p>
-                  <i class="bi bi-check-circle me-3"></i>Manajemen pemasaran
+                  <i className="bi bi-check-circle me-3"></i>Manajemen pemasaran
                 </p>
                 <p>
-                  <i class="bi bi-check-circle me-3"></i>Dasar pemasaran
+                  <i className="bi bi-check-circle me-3"></i>Dasar pemasaran
                   perikanan bagi pemula
                 </p>
                 <p>
-                  <i class="bi bi-check-circle me-3"></i>Dasar pemasaran
+                  <i className="bi bi-check-circle me-3"></i>Dasar pemasaran
                   perikanan bagi pemula
                 </p>
                 <p>
-                  <i class="bi bi-check-circle me-3"></i>Manajemen pemasaran
+                  <i className="bi bi-check-circle me-3"></i>Manajemen pemasaran
                   industri perikanan bagi pemula
                 </p>
                 <p>
-                  <i class="bi bi-check-circle me-3"></i>Manajemen pemasaran
+                  <i className="bi bi-check-circle me-3"></i>Manajemen pemasaran
                   industri perikanan lanjutan
                 </p>
                 <p>
-                  <i class="bi bi-check-circle me-3"></i>Manajemen pemasaran
+                  <i className="bi bi-check-circle me-3"></i>Manajemen pemasaran
                   industri perikanan ahli
                 </p>
               </div>
@@ -133,23 +133,23 @@ const DetailKursus = () => {
               <div className="card-benefitkursus">
                 <h5>Apa yang akan anda dapatkan</h5>
                 <p>
-                  <i class="bi bi-camera-video me-3"></i>42 Jam Video
+                  <i className="bi bi-camera-video me-3"></i>42 Jam Video
                   Pembelajaran
                 </p>
                 <p>
-                  <i class="bi bi-card-text me-3"></i>20 Artikel Terkait
+                  <i className="bi bi-card-text me-3"></i>20 Artikel Terkait
                 </p>
                 <p>
-                  <i class="bi bi-cloud-download  me-3"></i>Download Materi
+                  <i className="bi bi-cloud-download  me-3"></i>Download Materi
                 </p>
                 <p>
-                  <i class="bi bi-credit-card me-3"></i>Akses Selamanya
+                  <i className="bi bi-credit-card me-3"></i>Akses Selamanya
                 </p>
                 <p>
-                  <i class="bi bi-folder-symlink me-3"></i>Tugas dan Latihan
+                  <i className="bi bi-folder-symlink me-3"></i>Tugas dan Latihan
                 </p>
                 <p>
-                  <i class="bi bi-person-vcard me-3"></i>Sertifikat Tanda
+                  <i className="bi bi-person-vcard me-3"></i>Sertifikat Tanda
                   Selesai
                 </p>
                 <div className="btn-benefitkursus text-center">

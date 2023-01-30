@@ -25,8 +25,8 @@ const DetailProduk = () => {
                   className="me-3"
                 />
                 <img src="/assets/exploreproduk/lite-beras.png" alt="" />
-                <i class="bi bi-arrow-left-square me-3"></i>
-                <i class="bi bi-arrow-right-square-fill"></i>
+                <i className="bi bi-arrow-left-square me-3"></i>
+                <i className="bi bi-arrow-right-square-fill"></i>
               </div>
               <div className="profile-detailproduk">
                 <h5>
@@ -79,8 +79,8 @@ const DetailProduk = () => {
                     Pertanian
                   </p>
                   <p>
-                    <i class="bi bi-calendar4 me-3"></i>Publikasi : 1 Desember
-                    2022
+                    <i className="bi bi-calendar4 me-3"></i>Publikasi : 1
+                    Desember 2022
                   </p>
                   <p>
                     <i className="bi bi-eye me-3"></i>Dilihat : 1001 kali
@@ -100,11 +100,11 @@ const DetailProduk = () => {
               </div>
               <div className="btn-detailproduk text-center mt-4">
                 <a href="https://web.whatsapp.com/" className="btn btn-sm me-4">
-                  <i class="bi bi-whatsapp me-2"></i>
+                  <i className="bi bi-whatsapp me-2"></i>
                   Hubungi Whatsapp
                 </a>
                 <a href="https://mail.google.com/" className="btn btn-sm">
-                  <i class="bi bi-envelope me-2"></i>
+                  <i className="bi bi-envelope me-2"></i>
                   Hubungi Email
                 </a>
               </div>
@@ -123,7 +123,7 @@ const DetailProduk = () => {
                   Beri Penilaian
                 </a>
                 <p className="text-muted all-see">
-                  Lihat Semua Ulasan <i class="bi bi-arrow-right-short"></i>
+                  Lihat Semua Ulasan <i className="bi bi-arrow-right-short"></i>
                 </p>
                 <hr />
                 <div className="card-ulasanproduk">
