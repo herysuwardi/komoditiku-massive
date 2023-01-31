@@ -6,97 +6,56 @@ const DetailKonsultasi = () => {
       <h6>Pilih Media Konsultasi</h6>
       <div className="row">
         <div className="col-4 mt-2 mb-4">
-          <div class="form-check">
+          <div className="form-check">
             <input
-              class="form-check-input"
+              className="form-check-input"
               type="radio"
               name="flexRadioDefault"
-              id="flexRadioDefault1"
             />
-            <label class="form-check-label" forHtml="flexRadioDefault1">
-              Video Conference
-            </label>
+            <label className="form-check-label">Video Conference</label>
           </div>
         </div>
         <div className="col-3 mt-2 mb-4">
-          <div class="form-check">
+          <div className="form-check">
             <input
-              class="form-check-input"
+              className="form-check-input"
               type="radio"
               name="flexRadioDefault"
-              id="flexRadioDefault1"
             />
-            <label class="form-check-label" forHtml="flexRadioDefault1">
-              Whatsapp
-            </label>
+            <label className="form-check-label">Whatsapp</label>
           </div>
         </div>
       </div>
       <h6>Darimana anda mengetahui tentang komoditiku?</h6>
       <div className="row">
         <div className="col-2 mt-2">
-          <div class="form-check">
-            <input
-              class="form-check-input"
-              type="checkbox"
-              value=""
-              id="flexCheckDefault"
-            />
-            <label class="form-check-label" for="flexCheckDefault">
-              Facebook
-            </label>
+          <div className="form-check">
+            <input className="form-check-input" type="checkbox" />
+            <label className="form-check-label">Facebook</label>
           </div>
         </div>
         <div className="col-2 mt-2">
-          <div class="form-check">
-            <input
-              class="form-check-input"
-              type="checkbox"
-              value=""
-              id="flexCheckDefault"
-            />
-            <label class="form-check-label" for="flexCheckDefault">
-              Twitter
-            </label>
+          <div className="form-check">
+            <input className="form-check-input" type="checkbox" />
+            <label className="form-check-label">Twitter</label>
           </div>
         </div>
         <div className="col-2 mt-2">
-          <div class="form-check">
-            <input
-              class="form-check-input"
-              type="checkbox"
-              value=""
-              id="flexCheckDefault"
-            />
-            <label class="form-check-label" for="flexCheckDefault">
-              Linkedin
-            </label>
+          <div className="form-check">
+            <input className="form-check-input" type="checkbox" />
+            <label className="form-check-label">Linkedin</label>
           </div>
         </div>
         <div className="col-2 mt-2">
-          <div class="form-check">
-            <input
-              class="form-check-input"
-              type="checkbox"
-              value=""
-              id="flexCheckDefault"
-            />
-            <label class="form-check-label" for="flexCheckDefault">
-              Internet
-            </label>
+          <div className="form-check">
+            <input className="form-check-input" type="checkbox" />
+            <label className="form-check-label">Internet</label>
           </div>
         </div>
         <div className="col-3 mt-2">
-          <div class="form-check">
-            <input
-              class="form-check-input"
-              type="checkbox"
-              value=""
-              id="flexCheckDefault"
-            />
-            <label class="form-check-label" for="flexCheckDefault">
-              Orang Lain
-            </label>
+          <div className="form-check">
+            <input className="form-check-input" type="checkbox" />
+            <label className="form-check-label">Orang Lain</label>
           </div>
         </div>
       </div>

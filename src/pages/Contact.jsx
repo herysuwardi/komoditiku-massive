@@ -119,9 +119,9 @@ const Contact = () => {
                     placeholder="Apa yang bisa kami bantu?"
                   ></textarea>
                 </div>
-                <Link href="#" type="submit" className="btn btn-sm">
+                <button type="submit" className="btn btn-sm">
                   Kirim
-                </Link>
+                </button>
               </div>
             </div>
           </div>

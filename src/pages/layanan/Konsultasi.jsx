@@ -105,9 +105,9 @@ const Konsultasi = () => {
               <div className="col-8">
                 <div className="wrapper__formkonsultasi">
                   {displayContent}
-                  <Link href="#" type="submit" className="btn btn-sm">
+                  <button type="submit" className="btn btn-sm">
                     Kirim
-                  </Link>
+                  </button>
                 </div>
               </div>
             </div>

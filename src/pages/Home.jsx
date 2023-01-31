@@ -180,29 +180,27 @@ const Home = () => {
                 Ada Komentar, Kritik, dan Saran Tentang <b>Komoditiku</b>?
               </h1>
               <p>
-                Masukkan komentar, kritik, ataupun saran anda tentang komoditiku{" "}
-                <br></br>dibawah ini!
+                Masukkan komentar, kritik, ataupun saran anda tentang komoditiku
+                <br />
+                dibawah ini!
               </p>
               <Form>
                 <Form.Group
-                  className="mb-1"
+                  className="mt-4 mb-4"
                   controlId="exampleForm.ControlInput1"
                 >
-                  <Form.Label></Form.Label>
                   <Form.Control type="email" placeholder="nama" />
                 </Form.Group>
                 <Form.Group
-                  className="mb-1"
+                  className="mb-4"
                   controlId="exampleForm.ControlInput1"
                 >
-                  <Form.Label></Form.Label>
                   <Form.Control type="email" placeholder="profesi" />
                 </Form.Group>
                 <Form.Group
                   className="mb-1"
                   controlId="exampleForm.ControlTextarea1"
                 >
-                  <Form.Label></Form.Label>
                   <Form.Control
                     as="textarea"
                     placeholder="isi komentar, kritik atau saran"
@@ -211,9 +209,9 @@ const Home = () => {
                 </Form.Group>
               </Form>
               <div className="btn-comment">
-                <Link href="#" className="btn btn-sm">
+                <button type="submit" className="btn btn-sm">
                   Kirim
-                </Link>
+                </button>
               </div>
             </div>
             <div className="col-6" data-aos="fade-up">

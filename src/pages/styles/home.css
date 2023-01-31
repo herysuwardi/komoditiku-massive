@@ -155,7 +155,7 @@
     font-size: 16px;
 }
 
-.btn-comment a {
+.btn-comment button {
     margin-top: 2rem;
     font-size: 16px;
     font-weight: 500;
@@ -167,7 +167,7 @@
     color: #ffffff;
 }
 
-.btn-comment a:hover {
+.btn-comment button:hover {
     background-color: #0AB04A;
     color: #ffffff;
     transition: all 0.3s ease-in-out;
